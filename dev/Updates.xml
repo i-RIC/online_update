@@ -421,19 +421,6 @@
   <SHA1>1ca0c0089b2023775d6db085a7664299f1096674</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.runtime</Name>
-  <DisplayName>iRIC GUI Runtime</DisplayName>
-  <Description>Runtime DLLs for iRIC Main GUI</Description>
-  <Version>1.1.4</Version>
-  <ReleaseDate>2020-10-13</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="66254098" OS="Any" UncompressedSize="255585023" />
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,udunits.7z,content.7z</DownloadableArchives>
-  <SHA1>b0ccadd26116ddc5bf401cef91b9beed1c966ed7</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridexporter_plugin.landxml</Name>
   <DisplayName>Grid LandXML exporter</DisplayName>
   <Description>Grid LandXML exporter</Description>
@@ -646,5 +633,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>2453d5c8c1a126ff396f1fdfe1f27148c0cf0b76</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.runtime</Name>
+  <DisplayName>iRIC GUI Runtime</DisplayName>
+  <Description>Runtime DLLs for iRIC Main GUI</Description>
+  <Version>1.1.5</Version>
+  <ReleaseDate>2021-01-22</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="255773951" CompressedSize="66579415" OS="Any" />
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,udunits.7z,content.7z</DownloadableArchives>
+  <SHA1>50765f12e09e8511960d21dcc6ce931f9867e004</SHA1>
  </PackageUpdate>
 </Updates>
