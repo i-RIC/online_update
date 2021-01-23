@@ -37,7 +37,7 @@ def download_for_offline():
             print("Downloading {0}...".format(URL))
             download(URL, fullpath)
 
-def delete_file_for_online():
+def delete_files_downloaded():
     for URL in MINICONDA_URLs:
         fullpath = os.path.join(MINICONDA_PATH, os.path.basename(URL))
         if os.path.exists(fullpath):
@@ -48,16 +48,20 @@ def print_usage():
     print('  MODE: "offline" or "online"')
 
 def setup_miniconda_setting(mode):
-    src_path = 'dev_src/packages/miniconda/meta/installscript_{0}.qs'.format(mode)
-    tgt_path = 'dev_src/packages/miniconda/meta/installscript.qs'
-
-    shutil.copyfile(src_path, tgt_path)
-
     if mode =='offline':
+        src_path = 'dev_src/packages/miniconda/meta/installscript_offline.qs'
+        tgt_path = 'dev_src/packages/miniconda/meta/installscript.qs'
+        shutil.copyfile(src_path, tgt_path)
+
         download_for_offline()
 
-    elif mode == 'online':
-        delete_file_for_online()
+def shutdown_miniconda_setting(mode):
+    if mode == 'offline':
+        src_path = 'dev_src/packages/miniconda/meta/installscript_online.qs'
+        tgt_path = 'dev_src/packages/miniconda/meta/installscript.qs'
+        shutil.copyfile(src_path, tgt_path)
+
+        delete_files_downloaded()
 
 def build_installer(mode):
     """Run binarycreator to build online installer"""
@@ -65,8 +69,7 @@ def build_installer(mode):
     binc = QT_IFW_PATH + '\\bin\\binarycreator.exe'
     installer_name = 'iRIC_Installer_dev_{0}'.format(mode)
 
-    #cmd = binc + ' --{0}-only -c dev_src/config/config.xml'.format(mode)
-    cmd = binc + ' --{0}-only -c dev_src/config/config.xml'.format('offline')
+    cmd = binc + ' --{0}-only -c dev_src/config/config.xml'.format(mode)
     cmd += ' -p dev_src\\packages ' + installer_name
 
     print('building installer {0}.exe...'.format(installer_name))
@@ -86,3 +89,4 @@ if not (mode == "online" or mode == "offline"):
 
 setup_miniconda_setting(mode)
 build_installer(mode)
+shutdown_miniconda_setting(mode)

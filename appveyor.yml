@@ -16,7 +16,7 @@ environment:
   matrix:
     - BUILD_TYPE: PROD
     - BUILD_TYPE: DEV
-    # BUILD_TYPE: YASU
+    - BUILD_TYPE: YASU
 
 matrix:
   fast_finish: false
@@ -31,9 +31,13 @@ before_build:
   - ps: '[xml]$def = Get-Content .\$Env:SRC\packages\gui.prepost\data\definition.xml'
   - ps: $Env:SHA1=$def.GuiDefinition.'github-sha1'.Substring(0,8)
   - ps: $Env:RELEASE="{0:D2}" -f [int]$def.GuiDefinition.'release'.Split('.')[0].SubString(2,2) + "{0:D2}" -f [int]$def.GuiDefinition.'release'.Split('.')[1] + "{0:D2}" -f [int]$def.GuiDefinition.'release'.Split('.')[2]
+  - py -m pip install requests
 
 build_script:
-  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c %SRC%/config/config.xml -p %SRC%/packages iRIC_Installer_%RELEASE%_%SHA1%.exe
+  - echo QT_IFW_PATH = 'C:\\Qt\\Tools\\QtInstallerFramework\\2.0' > qt_ifw_path.py
+  - if "%BUILD_TYPE%"=="PROD" (C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c %SRC%/config/config.xml -p %SRC%/packages iRIC_Installer_%RELEASE%_%SHA1%.exe)
+  - if "%BUILD_TYPE%"=="DEV"  (py build_dev_installer.py offline)
+  - if "%BUILD_TYPE%"=="YASU" (py build_yasu_installer.py)
 ##  - appveyor PushArtifact iRIC_Installer_%RELEASE%_%SHA1%.exe
   # build versions with no runtime libraries
   # rd /s /q %SRC%\packages\runtime
@@ -41,6 +45,8 @@ build_script:
   # appveyor PushArtifact iRIC_Installer_No_Runtime_%RELEASE%_%SHA1%.exe
 
 before_test:
+  - if "%BUILD_TYPE%"=="DEV"  (copy iRIC_Installer_dev_offline.exe iRIC_Installer_%RELEASE%_%SHA1%.exe)
+  - if "%BUILD_TYPE%"=="YASU" (copy iRIC_Installer_yasu.exe iRIC_Installer_%RELEASE%_%SHA1%.exe)
   # list what's installed
   - ps: wmic PRODUCT GET Name,Version | Out-File Installed.txt
   - appveyor PushArtifact Installed.txt
@@ -49,4 +55,7 @@ before_test:
 
 test_script:
   # py install_runtime.py
-  - py run_iric_install.py
+  # Note YASU build has extra 'Settings' button as the default
+  # so the 'Next' button isn't found therefore skip testing the
+  # YASU version for now
+  - if NOT "%BUILD_TYPE%"=="YASU" (py run_iric_install.py)
