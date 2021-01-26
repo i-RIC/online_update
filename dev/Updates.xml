@@ -618,23 +618,6 @@
   <SHA1>b0ab369315841715403f39c6fbcae2ae36d7fa0a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6714</Version>
-  <ReleaseDate>2021-01-24</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3629595" OS="Any" UncompressedSize="20898931" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
-  </Licenses>
-  <SHA1>ee09bbaf4a3fe2a99cb6aac21153407177cef0d5</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.runtime</Name>
   <DisplayName>iRIC GUI Runtime</DisplayName>
   <Description>Runtime DLLs for iRIC Main GUI</Description>
@@ -643,8 +626,25 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="255773951" CompressedSize="66579415" OS="Any" />
+  <UpdateFile CompressedSize="66579415" OS="Any" UncompressedSize="255773951" />
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,udunits.7z,content.7z</DownloadableArchives>
   <SHA1>50765f12e09e8511960d21dcc6ce931f9867e004</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6715</Version>
+  <ReleaseDate>2021-01-26</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3629434" OS="Any" UncompressedSize="20898931" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+  </Licenses>
+  <SHA1>a973e4cbb4ca3b9022bda2cc302a2d24bbdd750d</SHA1>
  </PackageUpdate>
 </Updates>
