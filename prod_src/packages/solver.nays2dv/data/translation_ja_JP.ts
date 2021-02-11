@@ -13,8 +13,44 @@
             <translation>計算パラメーター</translation>
         </message>
         <message>
+            <source>Density Computation</source>
+            <translation>密度の計算</translation>
+        </message>
+        <message>
+            <source>Density by concentration</source>
+            <translation>濃度差による密度</translation>
+        </message>
+        <message>
+            <source>No(Without concentration computation)</source>
+            <translation>考慮しない</translation>
+        </message>
+        <message>
+            <source>Yes(With concentration computation)</source>
+            <translation>考慮する</translation>
+        </message>
+        <message>
+            <source>Start time of concentration calculation</source>
+            <translation>濃度計算開始時間(秒)</translation>
+        </message>
+        <message>
+            <source>Density by temperature</source>
+            <translation>温度差による密度</translation>
+        </message>
+        <message>
+            <source>No(Without temperature computation)</source>
+            <translation>考慮しない</translation>
+        </message>
+        <message>
+            <source>Yes(With temperature computation)</source>
+            <translation>考慮する</translation>
+        </message>
+        <message>
+            <source>Start time of temperature calculation</source>
+            <translation>温度計算開始時間(秒)</translation>
+        </message>
+        <message>
             <source>Finite Differential Method</source>
-            <translation>計算方式</translation>
+            <translation>差分計算方式</translation>
         </message>
         <message>
             <source>Velocity Advection Term</source>
@@ -29,8 +65,16 @@
             <translation>風上差分</translation>
         </message>
         <message>
-            <source>Boundary Condition</source>
+            <source>Density Advection Term</source>
+            <translation>密度の移流項</translation>
+        </message>
+        <message>
+            <source>Boundary condition</source>
             <translation>境界条件</translation>
+        </message>
+        <message>
+            <source>Channel boundary condition</source>
+            <translation>水路の境界条件</translation>
         </message>
         <message>
             <source>Upstream and Down Stream Boundary</source>
@@ -65,8 +109,48 @@
             <translation>周期境界</translation>
         </message>
         <message>
-            <source>Initial Discharge per Unit Width</source>
-            <translation>初期単位幅流量</translation>
+            <source>Discharge</source>
+            <translation>流量</translation>
+        </message>
+        <message>
+            <source>Discharge from upstream</source>
+            <translation>上流からの流量供給</translation>
+        </message>
+        <message>
+            <source>Not given</source>
+            <translation>与えない</translation>
+        </message>
+        <message>
+            <source>Given</source>
+            <translation>与える</translation>
+        </message>
+        <message>
+            <source>Discharge per Unit Width</source>
+            <translation>単位幅流量(㎡/s)</translation>
+        </message>
+        <message>
+            <source>How to adjust discharge</source>
+            <translation>流量補正の方法</translation>
+        </message>
+        <message>
+            <source>Control upstream velocity</source>
+            <translation>上流端の流速を補正する</translation>
+        </message>
+        <message>
+            <source>Control upstream water surface elevation</source>
+            <translation>上流端の水面勾配を補正する(推奨)</translation>
+        </message>
+        <message>
+            <source>Relaxation coefficient for discharge adjustment</source>
+            <translation>給料補正の緩和係数</translation>
+        </message>
+        <message>
+            <source>Start time of discharge adjustment (sec)</source>
+            <translation>流量補正開始時間(秒)</translation>
+        </message>
+        <message>
+            <source>Time to reach full discharge(sec)</source>
+            <translation>所定の流量まで達する時間(秒)</translation>
         </message>
         <message>
             <source>Downstream Water Surface</source>
@@ -85,20 +169,12 @@
             <translation>サインカーブ振動</translation>
         </message>
         <message>
-            <source>Time Series Data Input</source>
-            <translation>時系列入力</translation>
-        </message>
-        <message>
             <source>Horizontal(dH/dx=0)</source>
             <translation>水平(dH/dt=0)</translation>
         </message>
         <message>
-            <source>Uniform Slope (d2H/dx2=0)</source>
-            <translation>2次微分ゼロ(d2H/dx2=0)</translation>
-        </message>
-        <message>
-            <source>Setting of DWSE</source>
-            <translation>下流端水位の設定</translation>
+            <source>How to set down stream water surface elevation</source>
+            <translation>下流端の水位の設定方法</translation>
         </message>
         <message>
             <source>Identical to Initial Value</source>
@@ -113,8 +189,8 @@
             <translation>下流端水位の値(m)</translation>
         </message>
         <message>
-            <source>Downstream Oscillation Values</source>
-            <translation>下流端水位振動パラメーター</translation>
+            <source>Downstream water surface oscillation parameters</source>
+            <translation>下流端水位の振動パラメーター</translation>
         </message>
         <message>
             <source>Amplitude(m)</source>
@@ -141,40 +217,24 @@
             <translation>上流端水位条件</translation>
         </message>
         <message>
-            <source>Horizontal (dH/dx=0)</source>
-            <translation>水平</translation>
+            <source>Sine wave oscillation</source>
+            <translation>サインカーブ波形を与える</translation>
         </message>
         <message>
-            <source>Setting of UPSE</source>
-            <translation>水位を設定</translation>
+            <source>How to set upstream water surface elevation</source>
+            <translation>上流端水位の設定方法</translation>
         </message>
         <message>
             <source>Upstream Water Surface Elevation(m)</source>
             <translation>上流単水位の値(m)</translation>
         </message>
         <message>
-            <source>Grain Size of Bed Material(m)</source>
-            <translation>粗度としての河床材料粒径(m)</translation>
-        </message>
-        <message>
-            <source>Relative Length to the Depth of the First Grid From Bottom </source>
-            <translation>最下端の格子サイズの水深に対する割合</translation>
-        </message>
-        <message>
-            <source>Eddy Viscosity</source>
-            <translation>渦動粘性係数</translation>
-        </message>
-        <message>
-            <source>Parabolic</source>
-            <translation>放物線分布</translation>
-        </message>
-        <message>
-            <source>Coefficient for Eddy Viscosity</source>
-            <translation>渦動粘性係数の倍率</translation>
+            <source>Upstream water surface oscillation parameters</source>
+            <translation>上流端水位の振動パラメーター</translation>
         </message>
         <message>
             <source>Time and Iteration Parameters</source>
-            <translation>時間に関するパラメーター</translation>
+            <translation>時間と繰り返し計算に関するパラメーター</translation>
         </message>
         <message>
             <source>Time Parameters</source>
@@ -237,18 +297,6 @@
             <translation>打ち切り誤差</translation>
         </message>
         <message>
-            <source>Discharge Adjustment</source>
-            <translation>流量補正</translation>
-        </message>
-        <message>
-            <source>Discharge Adjustment Coefficient</source>
-            <translation>流量補正係数</translation>
-        </message>
-        <message>
-            <source>Discharge Adjustment Starting Time</source>
-            <translation>流量補正の開始時間(秒)</translation>
-        </message>
-        <message>
             <source>Physical Parameters</source>
             <translation>物理定数</translation>
         </message>
@@ -307,6 +355,22 @@
         <message>
             <source>Back Ground Concentration</source>
             <translation>背景濃度</translation>
+        </message>
+        <message>
+            <source>Grain Size of Bed Material(m)</source>
+            <translation>粗度としての河床材料粒径(m)</translation>
+        </message>
+        <message>
+            <source>Eddy Viscosity</source>
+            <translation>渦動粘性係数</translation>
+        </message>
+        <message>
+            <source>Parabolic</source>
+            <translation>放物線分布</translation>
+        </message>
+        <message>
+            <source>Coefficient for Eddy Viscosity</source>
+            <translation>渦動粘性係数の倍率</translation>
         </message>
         <message>
             <source>Elevation</source>

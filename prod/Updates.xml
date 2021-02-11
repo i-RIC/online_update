@@ -561,19 +561,6 @@
   <SHA1>aa5de81773ae7c9fd3f91d27395b6279323a3d18</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.nays2dv</Name>
-  <DisplayName>Nays2dV vertical 2D model</DisplayName>
-  <Description />
-  <Version>1.6.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="392395" OS="Any" UncompressedSize="1159728" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>86665354b68ad9ffb7d286149c6c050be38534bc</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays3dv</Name>
   <DisplayName>Nays3dV vertical 3D model</DisplayName>
   <Description />
@@ -602,5 +589,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>bf37c52db12feaa8f02fc8acf3140220c5f3efba</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dv</Name>
+  <DisplayName>Nays2dV vertical 2D model</DisplayName>
+  <Description />
+  <Version>1.6.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-02-11</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="363472" OS="Any" UncompressedSize="1065088" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>50073fa550ae518cb9a954e9da1ac35956edaa73</SHA1>
  </PackageUpdate>
 </Updates>
