@@ -630,7 +630,7 @@
   <UpdateFile UncompressedSize="21331428" OS="Any" CompressedSize="3665728"/>
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>57a5278e6467a5258d27c352028cf86d1ce5ce77</SHA1>
  </PackageUpdate>
@@ -646,5 +646,18 @@
   <UpdateFile UncompressedSize="12676757" OS="Any" CompressedSize="1091448"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>e56262c7e66aa7e4f3ab67dae9e81505aebaf8c3</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.uchannel_generator</Name>
+  <DisplayName>U-shape channel generator</DisplayName>
+  <Description>U-shape channel generator</Description>
+  <Version>1.1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-02-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="74555" CompressedSize="17163" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>efa7097c02a56b5d5b5bb40f34f246ede8fff558</SHA1>
  </PackageUpdate>
 </Updates>

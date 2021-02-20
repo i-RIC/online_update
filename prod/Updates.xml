@@ -603,4 +603,17 @@
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9e27da7b97f34d6dd444bc1223b3a5ccb7aaeb44</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.uchannel_generator</Name>
+  <DisplayName>U-shape channel generator</DisplayName>
+  <Description>U-shape channel generator</Description>
+  <Version>1.1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-02-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="17168" OS="Any" UncompressedSize="74555"></UpdateFile>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>06b4cebf89a51293cedb7925e3f59992747a43b8</SHA1>
+ </PackageUpdate>
 </Updates>

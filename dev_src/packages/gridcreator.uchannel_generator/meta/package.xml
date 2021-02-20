@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>U-shape channel generator</DisplayName>
+	<Description>U-shape channel generator</Description>
+	<Version>1.1.0</Version>
+	<Default>true</Default>
+	<ReleaseDate>2021-02-20</ReleaseDate>
+	<SortingPriority>50</SortingPriority>
+	<Script>installscript.qs</Script>
+</Package>
