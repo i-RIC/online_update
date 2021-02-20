@@ -140,8 +140,8 @@
         <translation>Kovacs Parkerモデル</translation>
     </message>
     <message>
-        <source>Average Grain Size[m]</source>
-        <translation>平均粒径[m]</translation>
+        <source>Grain Size[m]</source>
+        <translation>粒径[m]</translation>
     </message>
     <message>
         <source>Density of Bed Grain[kg/m3]</source>
@@ -688,7 +688,7 @@
 
     <message>
         <source>Roughness Conditions</source>
-        <translation>粗度の設定</translation>
+        <translation>粗度の条件</translation>
     </message>
     <message>
         <source>Manning n for zone A</source>
@@ -1465,6 +1465,146 @@
     <message>
         <source>i-range for inlet BC</source>
         <translation>上流境界条件に含める格子範囲</translation>
+    </message>
+
+    <message>
+        <source>2nd order Non-linear k-e model</source>
+        <translation>二次非線形k-eモデル</translation>
+    </message>
+    <message>
+        <source>3rd order Non-linear k-e model</source>
+        <translation>三次非線形k-eモデル</translation>
+    </message>
+    <message>
+        <source>How to set drag coefficient?</source>
+        <translation>抗力係数の設定方法</translation>
+    </message>
+    <message>
+        <source>Function of Reynolds number</source>
+        <translation>レイノルズ数の関数</translation>
+    </message>
+    <message>
+        <source>Given as a constant</source>
+        <translation>定数で与える</translation>
+    </message>
+    <message>
+        <source>Bed friction</source>
+        <translation>底面摩擦</translation>
+    </message>
+    <message>
+        <source>Consider bed friction</source>
+        <translation>底面摩擦を考慮</translation>
+    </message>
+    <message>
+        <source>No bed friction</source>
+        <translation>底面摩擦を無視</translation>
+    </message>
+    <message>
+        <source>Rolling motion</source>
+        <translation>流木の転がり</translation>
+    </message>
+    <message>
+        <source>No rolling motion</source>
+        <translation>流木の転がり無し</translation>
+    </message>
+    <message>
+        <source>Consider rolling motion</source>
+        <translation>流木の転がりを考慮</translation>
+    </message>
+    <message>
+        <source>Static friction coefficient for driftwood</source>
+        <translation>流木の静止摩擦係数</translation>
+    </message>
+    <message>
+        <source>Kinematic friction coefficient for driftwood</source>
+        <translation>流木の動摩擦係数</translation>
+    </message>
+    <message>
+        <source>Rolling friction coefficient for driftwood</source>
+        <translation>流木の転がり摩擦係数</translation>
+    </message>
+    <message>
+        <source>Dumping of repulsion with obstacle</source>
+        <translation>障害物との反発時の減衰の係数</translation>
+    </message>
+    <message>
+        <source>Projection area for drag force</source>
+        <translation>抗力における投影面積</translation>
+    </message>
+    <message>
+        <source>Variable</source>
+        <translation>可変</translation>
+    </message>
+    <message>
+        <source>Constant</source>
+        <translation>一定</translation>
+    </message>
+    <message>
+        <source>Whether to consider skin friction?</source>
+        <translation>流木の表面摩擦</translation>
+    </message>
+    <message>
+        <source>Coefficient for skin friction</source>
+        <translation>流木の表面摩擦係数</translation>
+    </message>
+    <message>
+        <source>Whether to consider sphere rotation in DEM?</source>
+        <translation>流木構成球体の回転の考慮</translation>
+    </message>
+    <message>
+        <source>Coefficient C4 for non-linear terms</source>
+        <translation>非線形項の係数C4</translation>
+    </message>
+    <message>
+        <source>Coefficient C5 for non-linear terms</source>
+        <translation>非線形項の係数C5</translation>
+    </message>
+
+    <message>
+        <source>Driftwood file output</source>
+        <translation>流木関係ファイルの出力</translation>
+    </message>
+    <message>
+        <source>NOT output file of Driftwood</source>
+        <translation>流木関係ファイルを出力しない</translation>
+    </message>
+    <message>
+        <source>Output file of Driftwood</source>
+        <translation>流木関係ファイルを出力する</translation>
+    </message>
+    <message>
+        <source>POV-Ray file output</source>
+        <translation>POR-Ray用ファイルの出力</translation>
+    </message>
+    <message>
+        <source>NOT output POV-Ray file</source>
+        <translation>POV-RAY用ファイルを出力しない</translation>
+    </message>
+    <message>
+        <source>Output POV-RAY file</source>
+        <translation>POV-RAY用ファイルを出力する</translation>
+    </message>
+
+    <message>
+        <source>If sphere was inside OBST in old step, set v=0 ?</source>
+        <translation>球体が前ステップで障害物内なら速度=0とする？</translation>
+    </message>
+    <message>
+        <source>Debug mode on/off</source>
+        <translation>デバッグ情報を出力する？</translation>
+    </message>
+
+    <message>
+        <source>DAM settings</source>
+        <translation>ダムの設定</translation>
+    </message>
+    <message>
+        <source>Set dam at outlet</source>
+        <translation>下流端にダムを設置する？</translation>
+    </message>
+    <message>
+        <source>Discharge from dam gate</source>
+        <translation>ダムゲート流量[m3/s]</translation>
     </message>
 
 </context>
