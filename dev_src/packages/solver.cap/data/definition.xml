@@ -540,7 +540,7 @@
 						<Item name="proj_type" caption="Type">
 							<Definition valueType="integer" option="true" default="1">
 								<Enumerations>
-									<Enumeration value="1" caption="Flush"/>
+									<Enumeration value="1" caption="Flush (No Projection)"/>
 									<Enumeration value="2" caption="With Projection"/>
 								</Enumerations>
 								<Condition type="isEqual" target="discharge_method" value="0"/>
@@ -563,7 +563,7 @@
 							</Definition>
 						</Item>
 					</GroupBox>
-					<Label caption="In case of Unequal projection, please refer to Bodhaine (1968) p. 41 for defining LPROJ" />
+					<Label caption="The projection length LPROJ is a function of projection geometry&lt;br&gt;relative to the headwater elevation.&lt;br&gt;Determine LPROJ according to Bodhaine (1968), p. 41-42." />
 				</VBoxLayout>
 			</HBoxLayout>
 		</Tab>

@@ -421,45 +421,6 @@
   <SHA1>c54aeb3de2ad4f89b1de86dc0d3b08e9e72e1a85</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.6</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-05-20</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="739372" OS="Any" UncompressedSize="1964505" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>3370d31f7f94476fa1bf55fd8b0e573da92ceefd</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>2.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-11-19</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="16125162" OS="Any" UncompressedSize="63112894" />
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>96454c1e92137d03be3c2b89f97eb09383ca1b85</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridexporter_plugin.structured15dhecras</Name>
-  <DisplayName>SAC grid HEC-RAS file exporter</DisplayName>
-  <Description>SAC grid HEC-RAS file exporter</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-11-19</ReleaseDate>
-  <SortingPriority>30</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="12191" OS="Any" UncompressedSize="32098" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>e51999e4fac4a6eb69b55308406f08ad5b0efcab</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>runtime</Name>
   <DisplayName>Runtime libraries</DisplayName>
   <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
@@ -682,8 +643,47 @@
   <UpdateFile CompressedSize="3665150" OS="Any" UncompressedSize="21330424" />
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+   <License name="Terms of use of the iRIC software" file="license-english.txt" />
   </Licenses>
   <SHA1>9950ea594460bf674e58da13e1af9c442cd54c1a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridexporter_plugin.structured15dhecras</Name>
+  <DisplayName>SAC grid HEC-RAS file exporter</DisplayName>
+  <Description>SAC grid HEC-RAS file exporter</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-03-03</ReleaseDate>
+  <SortingPriority>30</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="12436" OS="Any" UncompressedSize="32329" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>532505c89a61a28212fb852e115682e8cb051ae1</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>2.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-03-03</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="16121507" OS="Any" UncompressedSize="63108284" />
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>0f8fdaf6fd19266e6d7aff041f685a583c763172</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.6</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-05-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="724028" OS="Any" UncompressedSize="1945134" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>425916a3db2c6ee6369d0804a21adfc866c92c63</SHA1>
  </PackageUpdate>
 </Updates>
