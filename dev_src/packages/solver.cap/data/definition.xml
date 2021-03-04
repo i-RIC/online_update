@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="cap" caption="Culvert Analysis Program" version="2.0.6" copyright="USGS"
-    release="2020.05.20" 
+    name="cap" caption="Culvert Analysis Program" version="2.0.7" copyright="USGS"
+    release="2021.03.03" 
     homepage="http://water.usgs.gov/software/CAP/"
     executable="CAP.exe"
     iterationtype="time"
