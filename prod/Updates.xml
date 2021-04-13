@@ -616,4 +616,30 @@
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>06b4cebf89a51293cedb7925e3f59992747a43b8</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.arc_grigen</Name>
+  <DisplayName>2d arc grid generator</DisplayName>
+  <Description>2d arc grid generator</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-12</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="27686" OS="Any" UncompressedSize="85739" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>70fd017890426f5bd5744aa6126528f57254f19a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2d+</Name>
+  <DisplayName>Nays2D+</DisplayName>
+  <Description />
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-04-12</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="724379" OS="Any" UncompressedSize="2110465" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>160b4d36e8241f5af0423f8d3179a0012160f0ce</SHA1>
+ </PackageUpdate>
 </Updates>
