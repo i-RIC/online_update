@@ -642,4 +642,17 @@
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>160b4d36e8241f5af0423f8d3179a0012160f0ce</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost_archive_v3.3_0_19_6351</Name>
+  <DisplayName>3.0.19.6351 (2021/01/24)</DisplayName>
+  <Description>Graphical User Interface programs of iRIC 3.0.19.6351</Description>
+  <Dependencies>gui.prepost</Dependencies>
+  <Version>3.0.19.6351</Version>
+  <ReleaseDate>2021-01-24</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3254665" OS="Any" UncompressedSize="16915690" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <SHA1>076d87165e1fa700b86eaae9435844eaa8d96750</SHA1>
+ </PackageUpdate>
 </Updates>
