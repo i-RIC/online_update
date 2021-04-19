@@ -655,4 +655,45 @@
   </Licenses>
   <SHA1>7f169ce80b591e00e9352f2af774a8442a18d9a4</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>miniconda</Name>
+  <DisplayName>Miniconda 3</DisplayName>
+  <Description>Miniconda 3-py38_4.9.2</Description>
+  <Dependencies></Dependencies>
+  <Version>4.9.2</Version>
+  <ReleaseDate>2020-11-23</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="58353094" OS="Any" UncompressedSize="59801472"></UpdateFile>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>18052d7c1c034b9f5817f9a37857a3a35f7f3ca7</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>miniconda_iriclib</Name>
+  <DisplayName>iRIClib for Miniconda 3</DisplayName>
+  <Description>iRIClib and related dlls installed to miniconda3\envs\iric</Description>
+  <Dependencies>miniconda</Dependencies>
+  <Version>3.0.19.6704</Version>
+  <ReleaseDate>2021-01-08</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1031415" OS="Any" UncompressedSize="3771141"></UpdateFile>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>53c0d3fae3411e7782e4b83c5611133096fb0436</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.evatrip_pro</Name>
+  <DisplayName>EvaTRiP Pro</DisplayName>
+  <Description>EvaTRiP (Evaluation Tools for River environmental Planning) Pro are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-19</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="17739" OS="Any" UncompressedSize="78023"></UpdateFile>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>e053a778e7b23ec54f31fe9e5873374950d15bf5</SHA1>
+ </PackageUpdate>
 </Updates>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>iRIClib for Miniconda 3</DisplayName>
+	<Description>iRIClib and related dlls installed to miniconda3\envs\iric</Description>
+	<Dependencies>miniconda</Dependencies>
+	<Version>3.0.19.6704</Version>
+	<ReleaseDate>2021-01-08</ReleaseDate>
+	<SortingPriority>100</SortingPriority>
+	<ForcedInstallation>false</ForcedInstallation>
+	<Script>installscript.qs</Script>
+</Package>
