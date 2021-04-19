@@ -592,19 +592,6 @@
   <SHA1>efa7097c02a56b5d5b5bb40f34f246ede8fff558</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.evatrip_pro</Name>
-  <DisplayName>EvaTRiP Pro</DisplayName>
-  <Description>EvaTRiP (Evaluation Tools for River environmental Planning) Pro are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-02-26</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="17791" OS="Any" UncompressedSize="77882" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>11544bba4ba6ceb9344b52a0907729d1c7be5af4</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.vel_estimate</Name>
   <DisplayName>Velocity Estimation Tool</DisplayName>
   <Description>Velocity Estimation Tool developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
@@ -698,5 +685,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>725948691f68c255622db5990836c255b4d4df0a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.evatrip_pro</Name>
+  <DisplayName>EvaTRiP Pro</DisplayName>
+  <Description>EvaTRiP (Evaluation Tools for River environmental Planning) Pro are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-19</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="17858" OS="Any" UncompressedSize="78530" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>8e5b3f7aeacceac2b3d9857fd0c2963bf33da377</SHA1>
  </PackageUpdate>
 </Updates>

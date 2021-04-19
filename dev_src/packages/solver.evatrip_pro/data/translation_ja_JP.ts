@@ -173,20 +173,20 @@
             <translation>変動係数 (CV)</translation>
         </message>
         <message>
-            <source>Statistics for each grid node</source>
-            <translation>格子点ごとの統計値</translation>
+            <source>Statistics for specified time range</source>
+            <translation>任意期間統計値</translation>
         </message>
         <message>
-            <source>Statistics values against time is calculated for each grid node.&lt;br&gt;The values are output at the last time step.</source>
-            <translation>各格子点において、時間方向の統計値を計算します。&lt;br&gt;値は、計算結果の最後のタイムステップに出力されます。</translation>
+            <source>Statistics values for specified time range is calculated for each grid node.&lt;br&gt;The values are output at the last time step.</source>
+            <translation>各格子点において、指定した期間での統計値を計算します。&lt;br&gt;値は、計算結果の最後のタイムステップに出力されます。</translation>
         </message>
         <message>
             <source>Target Time Range</source>
-            <translation>対象時間範囲</translation>
+            <translation>対象期間</translation>
         </message>
         <message>
             <source>Whole Time Range</source>
-            <translation>全時間範囲</translation>
+            <translation>全期間</translation>
         </message>
         <message>
             <source>Start Time[s]</source>
@@ -249,12 +249,12 @@
             <translation>閾値の取り扱い</translation>
         </message>
         <message>
-            <source>Included to left range</source>
-            <translation>左側の範囲に含まれる</translation>
+            <source>&lt;</source>
+            <translation>&lt;</translation>
         </message>
         <message>
-            <source>Included to right range</source>
-            <translation>右側の領域に含まれる</translation>
+            <source>&lt;=</source>
+            <translation>&lt;=</translation>
         </message>
         <message>
             <source>Result (CLASS_result)</source>
@@ -313,32 +313,8 @@
             <translation>流体力 (COMP_FluidForce)</translation>
         </message>
         <message>
-            <source>Velocity estimated from elevation and water surface elevation (COMP_VeloByObsI, COMP_VeloByObsJ)</source>
-            <translation>標高と水位からの推定流速 (COMP_VeloByObsI, COMP_VeloByObsJ)</translation>
-        </message>
-        <message>
             <source>Manual Definition (COMP_Manual)</source>
             <translation>マニュアル定義 (COMP_Manual)</translation>
-        </message>
-        <message>
-            <source>Velocity estimated from elevation and water surface elevation is output at the last time step.</source>
-            <translation>標高と水位からの推定流速は、最後のタイムステップに出力されます。</translation>
-        </message>
-        <message>
-            <source>Function of Velocity</source>
-            <translation>流速の関数</translation>
-        </message>
-        <message>
-            <source>Output (RESP_V)</source>
-            <translation>出力 (RESP_V)</translation>
-        </message>
-        <message>
-            <source>Response Function</source>
-            <translation>応答関数</translation>
-        </message>
-        <message>
-            <source>Input</source>
-            <translation>入力</translation>
         </message>
         <message>
             <source>Function 1</source>
@@ -347,6 +323,14 @@
         <message>
             <source>Output (RESP_F1)</source>
             <translation>出力 (RESP_F1)</translation>
+        </message>
+        <message>
+            <source>Response Function</source>
+            <translation>応答関数</translation>
+        </message>
+        <message>
+            <source>Input</source>
+            <translation>入力</translation>
         </message>
         <message>
             <source>Function 2</source>

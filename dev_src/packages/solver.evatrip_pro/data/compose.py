@@ -23,14 +23,16 @@ output_diameter = None
 output_strength = None
 output_manual = None
 
-manual_func = None
+n = None
+roughness = None
 
-diameter_error = False
+manual_func = None
 
 def init():
     global v1_name, v2_name
     global output_froude, output_diameter, output_strength
     global output_manual
+    global n
     global manual_func
 
     output_froude = iric.cg_iRIC_Read_Integer_Mul(common.write_fid, 'comp_output_froude')
@@ -41,6 +43,11 @@ def init():
     logging.debug('output_strength = {0}'.format(output_strength))
     output_manual = iric.cg_iRIC_Read_Integer_Mul(common.write_fid, 'comp_output_manual')
     logging.debug('output_manual = {0}'.format(output_manual))
+    n = iric.cg_iRIC_Read_Real_Mul(common.write_fid, 'comp_n')
+    logging.debug('n = {0}'.format(n))
+
+    if output_diameter:
+        _setup_roughness()
 
     if output_manual:
         v1_name = iric.cg_iRIC_Read_String_Mul(common.write_fid, 'comp_v1')
@@ -84,7 +91,7 @@ def finalize():
     if output_froude:
         _output_dummy(OUTPUT_FROUDE_NAME)
 
-    if output_diameter and (not diameter_error):
+    if output_diameter:
         _output_dummy(OUTPUT_DIAMETER_NAME)
     
     if output_strength:
@@ -99,21 +106,15 @@ def _process_step_froude():
     iric.cg_iRIC_Write_Sol_Real_Mul(common.write_fid, OUTPUT_FROUDE_NAME, fr)
 
 def _process_step_diameter():
-    global diameter_error
+    global roughness
+    if roughness is None:
+        roughness = np.zeros(common.result_depth.shape)
+        roughness[:] = n
 
-    if diameter_error: return
-
-    try:
-        wse = common.result_water_surface_elevation
-        I = np.maximum(np.abs(_calc_energy_gradient_i(wse)), np.abs(_calc_energy_gradient_j(wse))) # max of gradient in i direction and j direction
-        u = np.sqrt(G * common.result_depth * I) # u* = sqrt(ghI)
-    except:
-        logging.warning('Calculating COMP_CriticalDiameter failed. Maybe the solver uses unstructured grid.')
-        diameter_error = True
-        return
-    
+    depth = np.where(common.result_depth > DEPTH_MIN, common.result_depth, DEPTH_MIN)
+    I = roughness * roughness * common.result_velocity / (np.power(depth, 4/3))
     # u2 [cm^2/s^2]
-    u2 = u * u * 10000
+    u2 = G * depth * I * 10000 # u* = sqrt(ghI)
     d = np.zeros(u2.shape)
 
     # d [mm]
@@ -131,46 +132,6 @@ def _process_step_strength():
     strength = h * v * v
     iric.cg_iRIC_Write_Sol_Real_Mul(common.write_fid, OUTPUT_STRENGTH_NAME, strength)
 
-# calculate energy gradient from wse
-def _calc_energy_gradient_i(wse):
-    isize, jsize = iric.cg_iRIC_GotoGridCoord2d_Mul(common.write_fid)
-    x, y = iric.cg_iRIC_GetGridCoord2d_Mul(common.write_fid)
-
-    x2 = x.reshape(jsize, isize)
-    y2 = y.reshape(jsize, isize)
-    wse2 = wse.reshape(jsize, isize)
-    dx = np.diff(x2)
-    dy = np.diff(y2)
-    dwse = np.diff(wse2)
-
-    ret = np.zeros(x2.shape)
-    grad = dwse / np.sqrt(dx * dx + dy * dy)
-    ret[:, 1:] += grad
-    ret[:, :-1] += grad
-    ret[:, 1:-1] /= 2 # average of two values
-    ret = np.abs(ret)
-
-    return ret.reshape(ret.size)
-
-def _calc_energy_gradient_j(wse):
-    isize, jsize = iric.cg_iRIC_GotoGridCoord2d_Mul(common.write_fid)
-    x, y = iric.cg_iRIC_GetGridCoord2d_Mul(common.write_fid)
-
-    x2 = x.reshape(jsize, isize)
-    y2 = y.reshape(jsize, isize)
-    wse2 = wse.reshape(jsize, isize)
-    dx = np.diff(x2, axis=0)
-    dy = np.diff(y2, axis=0)
-    dwse = np.diff(wse2, axis=0)
-
-    ret = np.zeros(x2.shape)
-    grad = dwse / np.sqrt(dx * dx + dy * dy)
-    ret[1:, :] += grad
-    ret[:-1, :] += grad
-    ret[1:-1, :] /= 2 # average of two values
-    ret = np.abs(ret)
-
-    return ret.reshape(ret.size)
 
 def _process_step_manual():
     depth = common.result_depth
@@ -187,3 +148,75 @@ def _process_step_manual():
 def _output_dummy(name):
     zeros = np.zeros(common.result_depth.shape)
     iric.cg_iRIC_Write_Sol_Real_Mul(common.write_fid, name, zeros)
+
+def _setup_roughness():
+    global roughness
+    structured = False
+    try:
+        # for structured grid
+        isize, jsize = iric.cg_iRIC_GotoGridCoord2d_Mul(common.read_fid)
+        structured = True
+    except:
+        pass
+
+    tmp_roughness = None
+    if structured:
+        # structured grid
+        try:
+            # try roughnes_cell
+            roughness_cell = iric.cg_iRIC_Read_Grid_Real_Cell_Mul(common.read_fid, 'roughness_cell')
+            roughness_cell = roughness_cell.reshape((jsize - 1, isize - 1))
+
+            r1 = _build_nan(isize, jsize)
+            r1[:-1,:-1] = roughness_cell[:,:]
+            r1 = r1.reshape((r1.size))
+
+            r2 = _build_nan(isize, jsize)
+            r2[1:, :-1] = roughness_cell[:,:]
+            r2 = r2.reshape((r2.size))
+
+            r3 = _build_nan(isize, jsize)
+            r3[:-1, 1:] = roughness_cell[:,:]
+            r3 = r3.reshape((r3.size))
+
+            r4 = _build_nan(isize, jsize)
+            r4[1:, 1:] = roughness_cell[:,:]
+            r4 = r4.reshape((r4.size))
+
+            r = np.stack([r1, r2, r3, r4])
+            roughness = np.nanmax(r, axis=0)
+            logging.info('Manning\'s roughness read from roughness_cell.')
+            return
+        except:
+            pass
+    try:
+        # try Roughness
+        roughness = iric.cg_iRIC_Read_Grid_Real_Node_Mul(common.read_fid, 'Roughness')
+        logging.info('Manning\'s roughness read from Roughness.')
+        return
+    except:
+        pass
+
+    try:
+        # try roughness
+        roughness = iric.cg_iRIC_Read_Grid_Real_Node_Mul(common.read_fid, 'roughness')
+        logging.info('Manning\'s roughness read from roughness.')
+        return
+    except:
+        pass
+
+    try:
+        # try initial_cd (for SToRM)
+        roughness = iric.cg_iRIC_Read_Grid_Real_Node_Mul(common.read_fid, 'initial_cd')
+        logging.info('Manning\'s roughness read from initial_cd.')
+        return
+    except:
+        pass
+
+    # use roughness read from calculation condition
+    logging.info('Manning\'s roughness value not found in input CGNS file, so calculation condition value {0} used.'.format(n))
+
+def _build_nan(isize, jsize):
+    r = np.zeros((jsize, isize))
+    r[:,:] = np.nan
+    return r

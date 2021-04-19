@@ -3,7 +3,7 @@
     xmlns="www.iric.net/SolverDefinition/1.0"
     name="EvaTRiP" caption="EvaTRiP Pro" version="1.0.0" 
 	copyright="Public Works Research Institute Japan"
-    release="2021.2.26" 
+    release="2021.4.19" 
     homepage="http://www.pwri.go.jp/team/kyousei/jpn/index.htm"
     executable="evatrip_pro.py"
     iterationtype="time"
@@ -165,8 +165,8 @@
 				</GroupBox>
 			</GroupBox>
 
-			<GroupBox caption="Statistics for each grid node">
-				<Label caption="Statistics values against time is calculated for each grid node.&lt;br&gt;The values are output at the last time step."/>
+			<GroupBox caption="Statistics for specified time range">
+				<Label caption="Statistics values for specified time range is calculated for each grid node.&lt;br&gt;The values are output at the last time step."/>
 				<GroupBox caption="Target Time Range">
 					<Item name="stat_timeranage_whole" caption="Whole Time Range">
 						<Definition valueType="integer" default="1" checkBox="true">
@@ -303,6 +303,15 @@
 							</Condition>
 						</Definition>
 					</Item>
+                    <Label row="7" col="0" caption="Manning's Roughness" />
+                    <Item row="7" col="1" name="comp_n">
+                        <Definition valueType="real" default="0.03">
+                            <Condition type="and">
+                                <Condition type="isEqual" target="comp_output_diameter" value="1" />
+                                <Condition type="isEqual" target="f_composition" value="1" />
+                            </Condition>
+                        </Definition>
+                    </Item>
 				</GridLayout>
 			</GroupBox>
 			<Label caption="Manual Definition" />
