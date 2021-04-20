@@ -627,6 +627,7 @@
 							</Dependency>
 						</Definition>
 					</Item>
+<!--
 					<Item name="i_rockbank" caption="Bedrock bank equation">
 						<Definition conditionType="constant" valueType="integer" option="false" default="0">
 							<Enumerations>
@@ -647,6 +648,7 @@
 							</Dependency>
 						</Definition>
 					</Item>
+-->
 				</Items>
 			</Content>
 		</Tab>

@@ -840,5 +840,105 @@
             <source>Free Outflow</source>
             <translation>自由流出</translation>
         </message>
+        <message>
+            <source>   Bedrock Erosion</source>
+            <translation>岩盤河床の侵食</translation>
+        </message>
+        <message>
+            <source>Enabled without bed roughness change </source>
+            <translation>有効（粗度変化なし）</translation>
+        </message>
+        <message>
+            <source>Initial alluvial thickness (m)</source>
+            <translation>初期砂礫層厚</translation>
+        </message>
+        <message>
+            <source>Bedrock macro roughness (m)</source>
+            <translation>岩盤河床の巨視的凹凸Lb</translation>
+        </message>
+        <message>
+            <source>A of alluvial hydraulic roughness ,ksa = A x grain size + B</source>
+            <translation>粒径から相等粗度ksを算出するための係数A</translation>
+        </message>
+        <message>
+            <source>B of alluvial hydraulic roughness ,ksa = A x grain size + B</source>
+            <translation>粒径から相等粗度ksを算出するための係数B</translation>
+        </message>
+        <message>
+            <source>Abrasion coefficient</source>
+            <translation>岩盤侵食の係数βc</translation>
+        </message>
+        <message>
+            <source>Sediment feed rate (m2/s)</source>
+            <translation>上流からの土砂供給量(m2/s)</translation>
+        </message>
+        <message>
+            <source>tsc for mixed alluvial-bedrock bed</source>
+            <translation>岩盤上の無次元限界掃流力の算出方法</translation>
+        </message>
+        <message>
+            <source>tsc for alluvial bed</source>
+            <translation>岩盤上の無次元限界掃流力の算出方法</translation>
+        </message>
+        <message>
+            <source>tsc for bedrock</source>
+            <translation>岩盤河床上の無次元限界掃流力</translation>
+        </message>
+        <message>
+            <source>Inoue et al, 2014</source>
+            <translation>井上の式(2014)</translation>
+        </message>
+        <message>
+            <source>Linear assumption</source>
+            <translation>線形仮定の式</translation>
+        </message>
+        <message>
+            <source>How to treat the effect of lateral bed slope on sediment transport</source>
+            <translation>流砂方向ベクトルに使う無次元限界掃流力</translation>
+        </message>
+        <message>
+            <source>Depends on tau*c</source>
+            <translation>長谷川の式</translation>
+        </message>
+        <message>
+            <source>Constant</source>
+            <translation>固定値</translation>
+        </message>
+        <message>
+            <source>Constant value for gamma</source>
+            <translation>斜面勾配による流砂の補正係数</translation>
+        </message>
+        <message>
+            <source>How to treat Vbc</source>
+            <translation>飽和流砂量の算出方法</translation>
+        </message>
+        <message>
+            <source>Constant value C</source>
+            <translation>固定値C</translation>
+        </message>
+        <message>
+            <source>C * tausta</source>
+            <translation>C*τ*</translation>
+        </message>
+        <message>
+            <source>C * (tausta-tsc)</source>
+            <translation>C*(τ*-τ*c)</translation>
+        </message>
+        <message>
+            <source>Value of C</source>
+            <translation>飽和流砂量の算出に用いる係数C</translation>
+        </message>
+        <message>
+            <source>Coefficient of sediment transport capacity equation</source>
+            <translation>掃流砂量の係数αqb</translation>
+        </message>
+        <message>
+            <source>Hydraulic roughness height of bedrock surface (m)</source>
+            <translation>岩盤河床上の粗度高さ</translation>
+        </message>
+        <message>
+            <source>+Bedrock</source>
+            <translation>+岩盤河床の侵食の設定</translation>
+        </message>
     </context>
 </TS>
