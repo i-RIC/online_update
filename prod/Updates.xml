@@ -613,19 +613,6 @@
   <SHA1>70fd017890426f5bd5744aa6126528f57254f19a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.nays2d+</Name>
-  <DisplayName>Nays2D+</DisplayName>
-  <Description />
-  <Version>1.0.2</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-04-12</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="724379" OS="Any" UncompressedSize="2110465" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>160b4d36e8241f5af0423f8d3179a0012160f0ce</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost_archive_v3.3_0_19_6351</Name>
   <DisplayName>3.0.19.6351 (2021/01/24)</DisplayName>
   <Description>Graphical User Interface programs of iRIC 3.0.19.6351</Description>
@@ -682,5 +669,18 @@
   <UpdateFile CompressedSize="1031415" OS="Any" UncompressedSize="3771141" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>53c0d3fae3411e7782e4b83c5611133096fb0436</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2d+</Name>
+  <DisplayName>Nays2D+</DisplayName>
+  <Description />
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-04-12</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="724324" OS="Any" UncompressedSize="2108607" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f83b99a25739e8efe4d9cd0c573efae64ec30d20</SHA1>
  </PackageUpdate>
 </Updates>
