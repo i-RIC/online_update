@@ -683,4 +683,17 @@
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,udunits.7z,content.7z</DownloadableArchives>
   <SHA1>c2de45c4ebad86f9e0bd10276ee5f6c773dbe2c4</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.evatrip_pro</Name>
+  <DisplayName>EvaTRiP Pro</DisplayName>
+  <Description>EvaTRiP (Evaluation Tools for River environmental Planning) Pro are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-27</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="17735" OS="Any" UncompressedSize="78023" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>ef4699407dc4df0a8d9cc70ffd93b37c6dcc4587</SHA1>
+ </PackageUpdate>
 </Updates>

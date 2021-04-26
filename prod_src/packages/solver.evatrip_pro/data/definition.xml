@@ -3,7 +3,7 @@
     xmlns="www.iric.net/SolverDefinition/1.0"
     name="EvaTRiP" caption="EvaTRiP Pro" version="1.0.0" 
 	copyright="Public Works Research Institute Japan"
-    release="2021.4.19" 
+    release="2021.4.27" 
     homepage="http://www.pwri.go.jp/team/kyousei/jpn/index.htm"
     executable="evatrip_pro.py"
     iterationtype="time"

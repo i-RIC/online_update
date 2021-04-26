@@ -644,19 +644,6 @@
   <SHA1>9a00a16c3b987611b401646e1b40ef0d658e2b9b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.evatrip_pro</Name>
-  <DisplayName>EvaTRiP Pro</DisplayName>
-  <Description>EvaTRiP (Evaluation Tools for River environmental Planning) Pro are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-04-19</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="78530" OS="Any" CompressedSize="17858" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>8e5b3f7aeacceac2b3d9857fd0c2963bf33da377</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays2db</Name>
   <DisplayName>Nays2DH Bedrock2</DisplayName>
   <Description>Nays2DH Bedrock2 iRIC.3x 1.0 64bit</Description>
@@ -682,7 +669,7 @@
   <UpdateFile UncompressedSize="21468307" OS="Any" CompressedSize="3695269" />
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt" />
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>93ca3f7c3732f3616fb275359395e6b5728b8293</SHA1>
  </PackageUpdate>
@@ -698,5 +685,18 @@
   <UpdateFile UncompressedSize="2108638" OS="Any" CompressedSize="724346" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>a5fbbe5079823b512f4ccac1e9c3d3d2ef1e0ffe</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.evatrip_pro</Name>
+  <DisplayName>EvaTRiP Pro</DisplayName>
+  <Description>EvaTRiP (Evaluation Tools for River environmental Planning) Pro are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute).</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-27</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="78023" CompressedSize="17722" OS="Any" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>3c6e51d2569575683af778567806feb85accd03b</SHA1>
  </PackageUpdate>
 </Updates>
