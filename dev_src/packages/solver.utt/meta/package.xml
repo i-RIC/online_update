@@ -4,7 +4,7 @@
 	<Description>UTT</Description>
 	<Version>1.0.2</Version>
 	<Default>true</Default>
-	<ReleaseDate>2021-01-18</ReleaseDate>
+	<ReleaseDate>2021-04-26</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

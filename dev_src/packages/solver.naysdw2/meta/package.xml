@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>NaysDW2</DisplayName>
 	<Description>"Drift Wood Tracer for Nays2d</Description>
-	<Version>1.0.2</Version>
+	<Version>1.0.3</Version>
 	<Default>true</Default>
-	<ReleaseDate>2021-01-18</ReleaseDate>
+	<ReleaseDate>2021-04-26</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

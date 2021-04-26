@@ -245,8 +245,8 @@
             <translation>トレーサーの無いセルはすべて発生させる</translation>
         </message>
         <message>
-            <source>Cells where only one particle</source>
-            <translation>トレーサーが１個だけのセル</translation>
+            <source>Cells with only one particle</source>
+            <translation>トレーサーが1個のセルだけ新規トレーサーを発生させる</translation>
         </message>
         <message>
             <source>Specified cells with one particle</source>
@@ -255,6 +255,10 @@
         <message>
             <source>Maximum Cloning Generations</source>
             <translation>最大のクローニング世代数</translation>
+        </message>
+        <message>
+            <source>Cloning reduction factor for empty cells cloning</source>
+            <translation>トレーサーが多すぎて密になりすぎる場合の減量係数</translation>
         </message>
         <message>
             <source>Amalgamation</source>
@@ -374,7 +378,7 @@
         </message>
         <message>
             <source>A value in D=A Nu + B</source>
-            <translation>D=Aμ+BにおけるAの値</translation>
+            <translation>D=Aμ+BにおけるAの値(μは渦動粘性係数)</translation>
         </message>
         <message>
             <source>B value (m2 s-1)</source>
@@ -390,7 +394,7 @@
         </message>
         <message>
             <source>Normal cell</source>
-            <translation></translation>
+            <translation>通常セル</translation>
         </message>
         <message>
             <source>Tracer Cloning Cell</source>

@@ -2,7 +2,7 @@
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
     name="UTT" caption="UTT" version="1.0.2" copyright="yasu"
-    release="2021.1.18"
+    release="2021.4.26"
     homepage="http://ws3-er.eng.hokudai.ac.jp/yasu/"
     executable="UTT.exe"
     iterationtype="time"
@@ -264,17 +264,28 @@
 					</Dependency>
 					<Enumerations>
 	    					<Enumeration value="0" caption="All empty cells"/>
-	 	   				<Enumeration value="1" caption="Cells where only one particle"/>
+	 	   				<Enumeration value="1" caption="Cells with only one particle"/>
 	 	   				<Enumeration value="2" caption="Specified cells with one particle"/>
 					</Enumerations>
 					</Definition>
 				</Item>
 				<Item name="max_generation" caption="Maximum Cloning Generations">
-					<Definition conditionType="constant" valueType="integer" default="5">
+					<Definition conditionType="constant" valueType="integer" default="5" max="100">
 					<Dependency>
 						<Condition type="and">
 						<Condition type="isEqual" target="j_add" value="1"/>
 						<Condition type="isEqual" target="j_spread" value="1"/>
+						</Condition>
+					</Dependency>
+					</Definition>
+				</Item>
+				<Item name="reduc_fac" caption="Cloning reduction factor for empty cells cloning">
+					<Definition conditionType="constant" valueType="integer" default="1" max="1000">
+					<Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_add" value="1"/>
+						<Condition type="isEqual" target="j_spread" value="1"/>
+						<Condition type="isEqual" target="j_space" value="0"/>
 						</Condition>
 					</Dependency>
 					</Definition>

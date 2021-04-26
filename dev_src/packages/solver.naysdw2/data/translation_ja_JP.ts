@@ -5,8 +5,8 @@
 -->
     <context>
         <message>
-            <source>Simple 2D Driftwood Tracker</source>
-            <translation>シンプルな2次元流木追跡ツール</translation>
+            <source>NaysDw2(Simple 2D Driftwood Tracker)</source>
+            <translation>NaysDw2シンプルな2次元流木追跡ツール</translation>
         </message>
         <message>
             <source>Basic Setting</source>
