@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GridGeneratorDefinition 
   xmlns="www.iric.net"
-  name="Arc_gridgen" caption="2d arc grid generator" version="1.0.1" 
+  name="Arc_gridgen" caption="2d arc grid generator" version="1.0.1"
   copyright="Yasuyuki Shimizu" executable="arc_grigen.exe" gridtype="structured2d"  release="2021.4.12"
 >
 
