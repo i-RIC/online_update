@@ -96,19 +96,6 @@
   <SHA1>c82813b43abb66d5115d1c0794965bab2fe63efb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>1.0.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-05-22</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8053713" OS="Any" UncompressedSize="26604222" />
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>52a0185b736d54719b832dce25d87a81628ff066</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.mflow</Name>
   <DisplayName>Mflow</DisplayName>
   <Description>Mflow_02 is a solver to calculate two-dimensional plane unsteady flow and riverbed variation using unstructured meshes of the finite element method.</Description>
@@ -747,5 +734,31 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>d44079769b8b067e4ecb78441124a4d3e4cb3a35</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridexporter_plugin.structured15dhecras</Name>
+  <DisplayName>SAC grid HEC-RAS file exporter</DisplayName>
+  <Description>SAC grid HEC-RAS file exporter</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-28</ReleaseDate>
+  <SortingPriority>30</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="12409" OS="Any" UncompressedSize="32330" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f033c43a3a104778815a73dedfba142d32d39808</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>2.0.3</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-28</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="16122374" OS="Any" UncompressedSize="63107412" />
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>342bcf9131da77f871eacad3e2aa92d998ae2d32</SHA1>
  </PackageUpdate>
 </Updates>
