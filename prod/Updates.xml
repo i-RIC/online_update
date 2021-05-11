@@ -252,19 +252,6 @@
   <SHA1>9bffe7b1ea0e5c2543bfec124206a548435ecc8f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2019-05-20</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="865393" OS="Any" UncompressedSize="2127243" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>f255b598fea154c82249414f8f4160ccbcd73111</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.storm</Name>
   <DisplayName>SToRM</DisplayName>
   <Description />
@@ -760,5 +747,18 @@
   <UpdateFile CompressedSize="16122374" OS="Any" UncompressedSize="63107412" />
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
   <SHA1>342bcf9131da77f871eacad3e2aa92d998ae2d32</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.7</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-03-03</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="723964" OS="Any" UncompressedSize="1945134" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>b6d56bf54cdeebdbb672595ca1b9c5d4528102ce</SHA1>
  </PackageUpdate>
 </Updates>
