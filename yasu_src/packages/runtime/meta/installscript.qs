@@ -9,23 +9,23 @@ Component.prototype.createOperations = function()
 	component.createOperations();
 
 	if (systemInfo.productType === "windows") {
-		install_runtime("2013", "12.0", 21005); // Note: 21005 displays as 30501
-		install_runtime("2017", "14.0", 26706);
-
+		install_runtime("14.0", 30037);
 	}
-	delete_runtime("2013");
-	delete_runtime("2017");
+	delete_runtime();
 }
 
-function install_runtime(vs_ver, major_subkey, build)
+function install_runtime(major_subkey, build)
 {
-	var executable = "vc" + vs_ver + "_vcredist_x64.exe";  // ie vc2013_vcredist_x64.exe
-	var runtime = "Microsoft Visual C++ " + vs_ver + " Runtime Bld " + build.toString();
-	var key = "HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\VisualStudio\\" + major_subkey + "\\VC\\Runtimes\\x64"
+	var executable = "VC_redist.x64.exe";
+	var runtime = "Microsoft Visual C++ 2015-2019 Runtime Bld " + build.toString();
+	var key = "HKLM\\SOFTWARE\\Wow6432Node\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X64"
 
 	// check if major version is installed
 	var installed = installer.execute("reg", new Array("QUERY", key, "/v", "Installed"))[0];
 	if (installed) {
+		// TODO fix this!
+
+		/*
 		// check build number
 		var bld = installer.execute("reg", new Array("QUERY", key, "/v", "Bld"))[0];
 		var elements = bld.split(" ");
@@ -39,19 +39,18 @@ function install_runtime(vs_ver, major_subkey, build)
 		if (bld < build) {
 			console.log("Installing " + runtime + ": " + executable + " /quiet /norestart");
 			component.addOperation("Execute", "@TargetDir@/" + executable, "/quiet", "/norestart");
-		}
-		else {
+		} else {
 			console.log("No need to install " + runtime);
 		}
-	}
-	else {
+		*/
+	} else {
 		console.log("Installing " + runtime + ": " + executable + " /quiet");
 		component.addOperation("Execute", "@TargetDir@/" + executable, "/quiet");
 	}
 }
 
-function delete_runtime(vs_ver)
+function delete_runtime()
 {
-	var executable = "vc" + vs_ver + "_vcredist_x64.exe";  // ie vc2013_vcredist_x64.exe
+	var executable = "VC_redist.x64.exe";
 	component.addOperation("Delete", "@TargetDir@/" + executable);
 }

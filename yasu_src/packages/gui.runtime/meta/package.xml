@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>iRIC GUI Runtime</DisplayName>
+	<Description>Runtime DLLs for iRIC Main GUI</Description>
+	<Version>1.1.5</Version>
+	<ReleaseDate>2021-01-22</ReleaseDate>
+	<SortingPriority>100</SortingPriority>
+	<ForcedInstallation>true</ForcedInstallation>
+	<Script>installscript.qs</Script>
+</Package>
