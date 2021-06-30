@@ -165,22 +165,6 @@
   <SHA1>1775d3cfbad73a440ed6c3d06937739614eafd00</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 4.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.19.6750</Version>
-  <ReleaseDate>2021-05-28</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3344162" OS="Any" UncompressedSize="17036309" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
-  </Licenses>
-  <SHA1>6065c91b20d265957884d183c6bd502ae7e7f672</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.rivmaker</Name>
   <DisplayName>Rivmaker</DisplayName>
   <Description>Riv file maker. You can create *.riv files from survey data.</Description>
@@ -241,5 +225,21 @@
   <UpdateFile CompressedSize="433765" OS="Any" UncompressedSize="1694313" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>ecb21b97117ef476a70135fa659e93e36c52b5e5</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC v4 (beta)</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.9.0.6751</Version>
+  <ReleaseDate>2021-06-30</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3343818" OS="Any" UncompressedSize="17047571" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License name="Terms of use of the iRIC software" file="license-english.txt" />
+  </Licenses>
+  <SHA1>a760e3111540b32fabf9b77ff6fdb5ff47b1408d</SHA1>
  </PackageUpdate>
 </Updates>
