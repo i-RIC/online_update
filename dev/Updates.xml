@@ -724,4 +724,17 @@
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>25395ebe1ff8a641c46b582a8a6898a71b9acfde</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.gridgenxy</Name>
+  <DisplayName>2D-XY Grid Generator</DisplayName>
+  <Description>Two dimensional grid creator in Cartesian coordinate system.</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-06-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="16391" OS="Any" UncompressedSize="41517" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f26727c62e40569df859718545435e6b4bd3110a</SHA1>
+ </PackageUpdate>
 </Updates>

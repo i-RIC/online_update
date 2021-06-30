@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridGeneratorDefinition 
+  xmlns="www.iric.net"
+  name="GrigenXY" caption="2D-XY Grid Generator" version="1.0.0" 
+  copyright="Yasuyuki Shimizu" executable="GrigenXY.exe" gridtype="structured2d"  release="2021.6.18"
+>
+
+<GridGeneratingCondition>
+<Tab name="Channel" caption="Channel shape">
+
+	<Item name="chl" caption="Channel Length(m)">
+		<Definition valueType="real" default="10.0">
+		</Definition>
+	</Item>
+	<Item name="ni" caption="Numbers of Node in X-direction">
+		<Definition valueType="integer" default="51">
+		</Definition>
+	</Item>
+	<Item name="chb" caption="Channel Width(m)">
+		<Definition valueType="real" default="5.">
+		</Definition>
+	</Item>
+	<Item name="nj" caption="Numbers of Nodes in Y-direction">
+		<Definition valueType="integer" default="21">
+		</Definition>
+	</Item>
+	<Item name="slope" caption="Bed Slope">
+		<Definition valueType="real" default="0.001">
+		</Definition>
+	</Item>
+	<Item name="e_dse" caption="Bed Elevation of Downstream End">
+		<Definition valueType="real" default="0.0">
+		</Definition>
+	</Item>
+</Tab>
+</GridGeneratingCondition>
+<ErrorCodes>
+    <ErrorCode value="1" caption="IMax * JMax must be smaller than 100,000." />
+  </ErrorCodes>
+</GridGeneratorDefinition >
+
