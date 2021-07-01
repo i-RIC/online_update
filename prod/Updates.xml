@@ -574,20 +574,6 @@
   <SHA1>076d87165e1fa700b86eaae9435844eaa8d96750</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>miniconda_iriclib</Name>
-  <DisplayName>iRIClib for Miniconda 3</DisplayName>
-  <Description>iRIClib and related dlls installed to miniconda3\envs\iric</Description>
-  <Dependencies>miniconda</Dependencies>
-  <Version>3.0.19.6704</Version>
-  <ReleaseDate>2021-01-08</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>false</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1031415" OS="Any" UncompressedSize="3771141" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>53c0d3fae3411e7782e4b83c5611133096fb0436</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.runtime</Name>
   <DisplayName>iRIC GUI Runtime</DisplayName>
   <Description>Runtime DLLs for iRIC Main GUI</Description>
