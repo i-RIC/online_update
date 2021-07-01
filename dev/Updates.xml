@@ -668,20 +668,6 @@
   <SHA1>2b4bb254502780628f002b64000c8df0e8efa323</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>miniconda</Name>
-  <DisplayName>Miniconda 3</DisplayName>
-  <Description>Miniconda 3-py38_4.9.2</Description>
-  <Dependencies />
-  <Version>4.9.2</Version>
-  <ReleaseDate>2020-11-23</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>false</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="63571155" CompressedSize="59376892" OS="Any" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>5d318cd47384f04312e7f4343c4a23358af90626</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays2d+</Name>
   <DisplayName>Nays2D+</DisplayName>
   <Description />
@@ -736,5 +722,19 @@
    <License name="Terms of use of the iRIC software" file="license-english.txt" />
   </Licenses>
   <SHA1>fece6d19c81699a955dc4e8589aa58e6c8a208b0</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>miniconda</Name>
+  <DisplayName>Miniconda 3</DisplayName>
+  <Description>Miniconda 3-py38_4.9.2</Description>
+  <Dependencies />
+  <Version>4.9.2</Version>
+  <ReleaseDate>2020-11-23</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>false</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="59918125" OS="Any" UncompressedSize="63571113" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>253929d4ecf6ab70aaa48ee25fe59563d4475498</SHA1>
  </PackageUpdate>
 </Updates>
