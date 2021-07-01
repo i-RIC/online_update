@@ -716,9 +716,9 @@
   <ReleaseDate>2021-06-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="41517" CompressedSize="16391" OS="Any" />
+  <UpdateFile CompressedSize="15850" OS="Any" UncompressedSize="40493" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>f26727c62e40569df859718545435e6b4bd3110a</SHA1>
+  <SHA1>51254f336762edab7a4c72095f6a1f597506795c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.prepost</Name>
