@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
-	<Name>iRIC Software (yasu)</Name>
+	<Name>iRIC Software v4 (beta)</Name>
 	<Version>4.0.0</Version>
-	<Title>iRIC Software(yasu)</Title>
+	<Title>iRIC Software v4 (beta)</Title>
 	<Publisher>iRIC organization</Publisher>
 	<!-- Directory name is used in component.xml -->
-	<StartMenuDir>iRIC(yasu)</StartMenuDir>
-	<TargetDir>@HomeDir@/iRIC_yasu</TargetDir>
+	<StartMenuDir>iRIC v4 (beta)</StartMenuDir>
+	<TargetDir>@HomeDir@/iRIC_v4</TargetDir>
 	<RemoteRepositories>
 		<Repository>
 			<Url>https://raw.githubusercontent.com/i-RIC/online_update/master/yasu</Url>
-			<DisplayName>iRIC Repository for yasu</DisplayName>
+			<DisplayName>iRIC Repository for v4 (beta)</DisplayName>
 		</Repository>
 	</RemoteRepositories>
 </Installer>

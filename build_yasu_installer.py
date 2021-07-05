@@ -14,7 +14,7 @@ def build_installer():
     """Run binarycreator to build online installer"""
 
     binc = QT_IFW_PATH + '\\bin\\binarycreator.exe'
-    installer_name = 'iRIC_Installer_yasu'
+    installer_name = 'iRIC_Installer_v4beta'
 
     cmd = binc + ' --online-only -c yasu_src/config/config.xml'
     cmd += ' -p prod_src\\packages ' + installer_name
