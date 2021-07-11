@@ -8,6 +8,6 @@
 	<ForcedInstallation>true</ForcedInstallation>
 	<Script>installscript.qs</Script>
 	<Licenses>
-		<License name="Terms of use of the iRIC software" file="license-english.txt" />
+		<License name="MIT License" file="LICENSE" />
 	</Licenses>
 </Package>

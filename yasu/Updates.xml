@@ -214,19 +214,6 @@
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.nays2dh</Name>
-  <DisplayName>Nays2DH</DisplayName>
-  <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
-  <Version>1.5.300</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-06-05</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="433765" OS="Any" UncompressedSize="1694313" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ecb21b97117ef476a70135fa659e93e36c52b5e5</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC v4 (beta)</DisplayName>
   <Description>iRIC Main GUI</Description>
@@ -235,11 +222,24 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3343818" OS="Any" UncompressedSize="17047571" />
+  <UpdateFile CompressedSize="3347359" OS="Any" UncompressedSize="17048649" />
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt" />
+   <License file="LICENSE" name="MIT License" />
   </Licenses>
-  <SHA1>a760e3111540b32fabf9b77ff6fdb5ff47b1408d</SHA1>
+  <SHA1>03ecc1b7471adeb07133e55281a63ed8d818183a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dh</Name>
+  <DisplayName>Nays2DH</DisplayName>
+  <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
+  <Version>1.5.300</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-06-05</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="432533" OS="Any" UncompressedSize="1690506" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>33ddf198fbe44f59f5e962de16001e3095dd298e</SHA1>
  </PackageUpdate>
 </Updates>
