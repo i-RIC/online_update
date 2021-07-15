@@ -3,6 +3,7 @@
 	<DisplayName>iRIC Solver SDK</DisplayName>
 	<Description>Headers and libraries needed to develop iRIC solvers</Description>
 	<Version>1.0.0</Version>
+	<Default>true</Default>
 	<ReleaseDate>2021-07-11</ReleaseDate>
 	<SortingPriority>10</SortingPriority>
 	<ForcedInstallation>false</ForcedInstallation>
