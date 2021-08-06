@@ -694,23 +694,6 @@
   <SHA1>51254f336762edab7a4c72095f6a1f597506795c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6753</Version>
-  <ReleaseDate>2021-06-30</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3706927" OS="Any" UncompressedSize="21492716" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
-  </Licenses>
-  <SHA1>fece6d19c81699a955dc4e8589aa58e6c8a208b0</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>miniconda</Name>
   <DisplayName>Miniconda 3</DisplayName>
   <Description>Miniconda 3-py38_4.9.2</Description>
@@ -736,5 +719,22 @@
   <UpdateFile CompressedSize="8011" OS="Any" UncompressedSize="35344" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>e602fe511272d7867b7e706eb87d42aac95c2b98</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6754</Version>
+  <ReleaseDate>2021-08-06</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3694589" OS="Any" UncompressedSize="21488779" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+  </Licenses>
+  <SHA1>38b2f2e67934b014adc77ab25733915265393647</SHA1>
  </PackageUpdate>
 </Updates>
