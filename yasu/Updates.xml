@@ -240,22 +240,22 @@
   <DownloadableArchives>c.7z,fortran.7z,python.7z</DownloadableArchives>
   <SHA1>b93502a430a95494394628d48ec5a92d407b3bac</SHA1>
  </PackageUpdate>
- <SHA1>5fee2ae11957d3ca6529d880986673d4315b9fa2</SHA1>
- <MetadataName>2021-08-29-0252_meta.7z</MetadataName>
+ <SHA1>1560be6354ac83d691f671b69c331875c2544908</SHA1>
+ <MetadataName>2021-08-30-0412_meta.7z</MetadataName>
  <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC v4 (beta)</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.9.0.6754</Version>
-  <ReleaseDate>2021-08-29</ReleaseDate>
+  <Version>3.9.0.6755</Version>
+  <ReleaseDate>2021-08-30</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="16512914" CompressedSize="3325192" OS="Any" />
+  <UpdateFile UncompressedSize="16512914" CompressedSize="3324864" OS="Any" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="LICENSE" name="MIT License" />
   </Licenses>
-  <SHA1>7809a63be4b33d0bb93df0f8186d129f378af5f3</SHA1>
+  <SHA1>dca325ba8e31824088c30787e90bddc0d39d8b62</SHA1>
  </PackageUpdate>
 </Updates>
