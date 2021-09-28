@@ -18,4 +18,5 @@ Component.prototype.createOperations = function()
 	component.addOperation("SimpleMoveFile", "@TargetDir@/iriclib.dll", "@TargetDir@/Miniconda3/envs/iric/Lib/site-packages/iriclib.dll");
 	component.addOperation("SimpleMoveFile", "@TargetDir@/szip.dll", "@TargetDir@/Miniconda3/envs/iric/Lib/site-packages/szip.dll");
 	component.addOperation("SimpleMoveFile", "@TargetDir@/zlib.dll", "@TargetDir@/Miniconda3/envs/iric/Lib/site-packages/zlib.dll");
+	component.addOperation("SimpleMoveFile", "@TargetDir@/PocoFoundation.dll", "@TargetDir@/Miniconda3/envs/iric/Lib/site-packages/PocoFoundation.dll");
 }
