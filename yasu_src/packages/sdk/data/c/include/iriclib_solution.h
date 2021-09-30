@@ -15,6 +15,8 @@ int IRICLIBDLL cg_iRIC_Read_Sol_BaseIterative_Real(int fid, int step, const char
 int IRICLIBDLL cg_iRIC_Read_Sol_BaseIterative_StringLen(int fid, int step, const char* name, int* length);
 int IRICLIBDLL cg_iRIC_Read_Sol_BaseIterative_String(int fid, int step, const char* name, char* strvalue);
 
+int IRICLIBDLL cg_iRIC_Write_Sol_Start(int fid);
+int IRICLIBDLL cg_iRIC_Write_Sol_End(int fid);
 int IRICLIBDLL cg_iRIC_Write_Sol_Time(int fid, double time);
 int IRICLIBDLL cg_iRIC_Write_Sol_Iteration(int fid, int index);
 int IRICLIBDLL cg_iRIC_Write_Sol_BaseIterative_Integer(int fid, const char* name, int value);

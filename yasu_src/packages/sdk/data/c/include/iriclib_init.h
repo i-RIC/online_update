@@ -10,7 +10,6 @@ extern "C" {
 int IRICLIBDLL cg_iRIC_Open(const char* filename, int mode, int* fid);
 int IRICLIBDLL cg_iRIC_Close(int fid);
 int IRICLIBDLL iRIC_InitOption(int option);
-int IRICLIBDLL cg_iRIC_Flush(int fid);
 
 #ifdef __cplusplus
 }

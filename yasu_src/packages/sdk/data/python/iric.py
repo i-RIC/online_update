@@ -515,10 +515,6 @@ def iRIC_InitOption(option):
 	ier = _iric.iRIC_InitOption(option)
 	_checkErrorCode(ier)
 
-def cg_iRIC_Flush(fid):
-	ier = _iric.cg_iRIC_Flush(fid)
-	_checkErrorCode(ier)
-
 
 # from iriclib_not_withbaseid.h
 def cg_iRIC_Read_Complex_Count(fid, groupname):
@@ -854,6 +850,14 @@ def cg_iRIC_Read_Sol_BaseIterative_String(fid, step, name):
 	ier, strvalue = _iric.cg_iRIC_Read_Sol_BaseIterative_String(fid, step, name)
 	_checkErrorCode(ier)
 	return strvalue
+
+def cg_iRIC_Write_Sol_Start(fid):
+	ier = _iric.cg_iRIC_Write_Sol_Start(fid)
+	_checkErrorCode(ier)
+
+def cg_iRIC_Write_Sol_End(fid):
+	ier = _iric.cg_iRIC_Write_Sol_End(fid)
+	_checkErrorCode(ier)
 
 def cg_iRIC_Write_Sol_Time(fid, time):
 	ier = _iric.cg_iRIC_Write_Sol_Time(fid, time)
