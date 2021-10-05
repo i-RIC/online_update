@@ -500,6 +500,10 @@ def iRIC_Check_Cancel():
 	ier = _iric.iRIC_Check_Cancel()
 	return ier
 
+def cg_iRIC_Check_Update(fid):
+	ier = _iric.cg_iRIC_Check_Update(fid)
+	_checkErrorCode(ier)
+
 
 # from iriclib_init.h
 def cg_iRIC_Open(filename, mode):

@@ -8,6 +8,7 @@ extern "C" {
 #endif
 
 int IRICLIBDLL iRIC_Check_Cancel();
+int IRICLIBDLL cg_iRIC_Check_Update(int fid);
 
 #ifdef __cplusplus
 }

@@ -2356,6 +2356,15 @@ contains
 
   end subroutine
 
+  subroutine cg_iric_check_update(fid, ier)
+    integer, intent(in):: fid
+    integer, intent(out):: ier
+
+    call cg_iric_check_update_f2c &
+      (fid, ier)
+
+  end subroutine
+
 
 
   ! from iriclib_init.h
