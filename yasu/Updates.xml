@@ -200,8 +200,8 @@
   <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any" />
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
- <SHA1>e4eebc59b2796f14dacf37d567b5e917053639a0</SHA1>
- <MetadataName>2021-10-09-2210_meta.7z</MetadataName>
+ <SHA1>17fa73ef4149aecf000321d22174312667c97206</SHA1>
+ <MetadataName>2021-10-13-0300_meta.7z</MetadataName>
  <PackageUpdate>
   <Name>private</Name>
   <DisplayName>Private folders</DisplayName>
@@ -273,16 +273,16 @@
   <Name>gui.prepost</Name>
   <DisplayName>iRIC v4 (beta)</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.9.0.6769</Version>
-  <ReleaseDate>2021-10-10</ReleaseDate>
+  <Version>3.9.0.6770</Version>
+  <ReleaseDate>2021-10-13</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="5036975" UncompressedSize="36776084" OS="Any" />
+  <UpdateFile CompressedSize="5036505" UncompressedSize="36776084" OS="Any" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="MIT License" file="LICENSE" />
+   <License file="LICENSE" name="MIT License" />
   </Licenses>
-  <SHA1>02cea7f0eb29268022477dbeab25acfe316a69bc</SHA1>
+  <SHA1>ba190811dc6b2723e376e298b7912ebd030eddb0</SHA1>
  </PackageUpdate>
 </Updates>
