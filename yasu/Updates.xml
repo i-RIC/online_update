@@ -10,7 +10,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any" />
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0" />
   <SHA1>3e3d4ff2d8a9f24716cdd71c07480583705ed9da</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -22,7 +22,7 @@
   <ReleaseDate>2020-10-13</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1705" CompressedSize="1169" OS="Any" />
+  <UpdateFile CompressedSize="1169" OS="Any" UncompressedSize="1705" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>2fa70a8d8a405ab8feb2b034fb238d9a2acca217</SHA1>
  </PackageUpdate>
@@ -35,7 +35,7 @@
   <ReleaseDate>2021-04-28</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="34890" CompressedSize="13699" OS="Any" />
+  <UpdateFile CompressedSize="13699" OS="Any" UncompressedSize="34890" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7586b78b9f71a1b2c6679d48f1ecf7ffd551d8c0</SHA1>
  </PackageUpdate>
@@ -48,7 +48,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="33360" CompressedSize="13042" OS="Any" />
+  <UpdateFile CompressedSize="13042" OS="Any" UncompressedSize="33360" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>45b4999e17830f95739324ea93066eb7f528ac02</SHA1>
  </PackageUpdate>
@@ -61,7 +61,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="24165" CompressedSize="9877" OS="Any" />
+  <UpdateFile CompressedSize="9877" OS="Any" UncompressedSize="24165" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>e8a2793b3d7cac6bf29da22bf9475d848b0fab93</SHA1>
  </PackageUpdate>
@@ -74,7 +74,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="22558" CompressedSize="9161" OS="Any" />
+  <UpdateFile CompressedSize="9161" OS="Any" UncompressedSize="22558" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7b8d6cd8a87e8f3c5f5714576a49649d15f26496</SHA1>
  </PackageUpdate>
@@ -87,7 +87,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="22564" CompressedSize="9147" OS="Any" />
+  <UpdateFile CompressedSize="9147" OS="Any" UncompressedSize="22564" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>018e6d3adb0cb2d3b980383fe56d6fe16ce55dc1</SHA1>
  </PackageUpdate>
@@ -99,7 +99,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any" />
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0" />
   <SHA1>94f08b9236db7797fc80bca9fc5d7f2f4f065a28</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -111,7 +111,7 @@
   <ReleaseDate>2020-04-17</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="78555" CompressedSize="21126" OS="Any" />
+  <UpdateFile CompressedSize="21126" OS="Any" UncompressedSize="78555" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>b0d7ced80eec649097815d0617e0268266a961b4</SHA1>
  </PackageUpdate>
@@ -124,7 +124,7 @@
   <ReleaseDate>2019-11-30</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="37182" CompressedSize="14623" OS="Any" />
+  <UpdateFile CompressedSize="14623" OS="Any" UncompressedSize="37182" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9aedc06f24906a375197772741eb3098b2c3b060</SHA1>
  </PackageUpdate>
@@ -137,7 +137,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="26946" CompressedSize="10848" OS="Any" />
+  <UpdateFile CompressedSize="10848" OS="Any" UncompressedSize="26946" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>3267bcc9bf72f6cb66f836791da04dcdaeca3a59</SHA1>
  </PackageUpdate>
@@ -150,7 +150,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="25956" CompressedSize="10278" OS="Any" />
+  <UpdateFile CompressedSize="10278" OS="Any" UncompressedSize="25956" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>a21627c8829f0472bdd077a9cad161052ead4a67</SHA1>
  </PackageUpdate>
@@ -161,7 +161,7 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any" />
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0" />
   <SHA1>1775d3cfbad73a440ed6c3d06937739614eafd00</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -173,7 +173,7 @@
   <ReleaseDate>2018-05-22</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="102750516" CompressedSize="26582254" OS="Any" />
+  <UpdateFile CompressedSize="26582254" OS="Any" UncompressedSize="102750516" />
   <DownloadableArchives>iconengines.7z,imageformats.7z,languages.7z,platforms.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
   <SHA1>961901747da3998bcc2facebf84cd0682cb9b4a3</SHA1>
  </PackageUpdate>
@@ -186,7 +186,7 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any" />
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0" />
   <SHA1>4b2552eb264cb394d5e114ab1d562f2d97279590</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -197,7 +197,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any" />
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0" />
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
  <SHA1>67e59c151a79ce963a36ebd2e2e5d8171a047fe6</SHA1>
@@ -211,7 +211,7 @@
   <ReleaseDate>2021-09-13</ReleaseDate>
   <SortingPriority>20</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="560" CompressedSize="984" OS="Any" />
+  <UpdateFile CompressedSize="984" OS="Any" UncompressedSize="560" />
   <DownloadableArchives>gridcreators.7z,solvers.7z,content.7z</DownloadableArchives>
   <SHA1>48da6a61c2522eec1f0e8e1f76fef93f3a48d425</SHA1>
  </PackageUpdate>
@@ -224,7 +224,7 @@
   <ReleaseDate>2021-10-01</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1690507" CompressedSize="432757" OS="Any" />
+  <UpdateFile CompressedSize="432757" OS="Any" UncompressedSize="1690507" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9de9f05e604b60f144b5f30d5f3cea76fe6e1945</SHA1>
  </PackageUpdate>
@@ -238,7 +238,7 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="65463856" CompressedSize="60244779" OS="Any" />
+  <UpdateFile CompressedSize="60244779" OS="Any" UncompressedSize="65463856" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>5e3005c08ce25646dd9f161c064381953a4a1a1e</SHA1>
  </PackageUpdate>
@@ -252,7 +252,7 @@
   <SortingPriority>10</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1678490" CompressedSize="126773" OS="Any" />
+  <UpdateFile CompressedSize="126773" OS="Any" UncompressedSize="1678490" />
   <DownloadableArchives>c.7z,fortran.7z,python.7z</DownloadableArchives>
   <SHA1>cf1cf4f237506ea25433613852e0d53022c633cf</SHA1>
  </PackageUpdate>
@@ -265,7 +265,7 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="311394289" CompressedSize="85740675" OS="Any" />
+  <UpdateFile CompressedSize="85740675" OS="Any" UncompressedSize="311394289" />
   <DownloadableArchives>iconengines.7z,imageformats.7z,licenses.7z,platforms.7z,resources.7z,styles.7z,translations.7z,udunits.7z,content.7z</DownloadableArchives>
   <SHA1>ce8e5d6ea726b300838374aab1042619965bc8e7</SHA1>
  </PackageUpdate>
@@ -278,10 +278,10 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="36776084" CompressedSize="5036773" OS="Any" />
+  <UpdateFile CompressedSize="5036773" OS="Any" UncompressedSize="36776084" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="MIT License" file="LICENSE" />
+   <License file="LICENSE" name="MIT License" />
   </Licenses>
   <SHA1>7532e7ad4d3df2704713ae0b3c387bfe17be551d</SHA1>
  </PackageUpdate>
