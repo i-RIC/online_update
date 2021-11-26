@@ -10,7 +10,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any" />
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <SHA1>3e3d4ff2d8a9f24716cdd71c07480583705ed9da</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -22,7 +22,7 @@
   <ReleaseDate>2020-10-13</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1169" UncompressedSize="1705" OS="Any" />
+  <UpdateFile UncompressedSize="1705" CompressedSize="1169" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>2fa70a8d8a405ab8feb2b034fb238d9a2acca217</SHA1>
  </PackageUpdate>
@@ -35,7 +35,7 @@
   <ReleaseDate>2021-04-28</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="13699" UncompressedSize="34890" OS="Any" />
+  <UpdateFile UncompressedSize="34890" CompressedSize="13699" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7586b78b9f71a1b2c6679d48f1ecf7ffd551d8c0</SHA1>
  </PackageUpdate>
@@ -48,7 +48,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="13042" UncompressedSize="33360" OS="Any" />
+  <UpdateFile UncompressedSize="33360" CompressedSize="13042" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>45b4999e17830f95739324ea93066eb7f528ac02</SHA1>
  </PackageUpdate>
@@ -61,7 +61,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9877" UncompressedSize="24165" OS="Any" />
+  <UpdateFile UncompressedSize="24165" CompressedSize="9877" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>e8a2793b3d7cac6bf29da22bf9475d848b0fab93</SHA1>
  </PackageUpdate>
@@ -74,7 +74,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9161" UncompressedSize="22558" OS="Any" />
+  <UpdateFile UncompressedSize="22558" CompressedSize="9161" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7b8d6cd8a87e8f3c5f5714576a49649d15f26496</SHA1>
  </PackageUpdate>
@@ -87,7 +87,7 @@
   <ReleaseDate>2020-02-03</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9147" UncompressedSize="22564" OS="Any" />
+  <UpdateFile UncompressedSize="22564" CompressedSize="9147" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>018e6d3adb0cb2d3b980383fe56d6fe16ce55dc1</SHA1>
  </PackageUpdate>
@@ -99,7 +99,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any" />
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <SHA1>94f08b9236db7797fc80bca9fc5d7f2f4f065a28</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -111,7 +111,7 @@
   <ReleaseDate>2020-04-17</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="21126" UncompressedSize="78555" OS="Any" />
+  <UpdateFile UncompressedSize="78555" CompressedSize="21126" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>b0d7ced80eec649097815d0617e0268266a961b4</SHA1>
  </PackageUpdate>
@@ -124,7 +124,7 @@
   <ReleaseDate>2019-11-30</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="14623" UncompressedSize="37182" OS="Any" />
+  <UpdateFile UncompressedSize="37182" CompressedSize="14623" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9aedc06f24906a375197772741eb3098b2c3b060</SHA1>
  </PackageUpdate>
@@ -137,7 +137,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="10848" UncompressedSize="26946" OS="Any" />
+  <UpdateFile UncompressedSize="26946" CompressedSize="10848" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>3267bcc9bf72f6cb66f836791da04dcdaeca3a59</SHA1>
  </PackageUpdate>
@@ -150,7 +150,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="10278" UncompressedSize="25956" OS="Any" />
+  <UpdateFile UncompressedSize="25956" CompressedSize="10278" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>a21627c8829f0472bdd077a9cad161052ead4a67</SHA1>
  </PackageUpdate>
@@ -161,7 +161,7 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any" />
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <SHA1>1775d3cfbad73a440ed6c3d06937739614eafd00</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -173,7 +173,7 @@
   <ReleaseDate>2018-05-22</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="26582254" UncompressedSize="102750516" OS="Any" />
+  <UpdateFile UncompressedSize="102750516" CompressedSize="26582254" OS="Any"/>
   <DownloadableArchives>iconengines.7z,imageformats.7z,languages.7z,platforms.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
   <SHA1>961901747da3998bcc2facebf84cd0682cb9b4a3</SHA1>
  </PackageUpdate>
@@ -186,7 +186,7 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any" />
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <SHA1>4b2552eb264cb394d5e114ab1d562f2d97279590</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -197,11 +197,11 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any" />
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
- <SHA1>2f0283e4c9485ec9b1ca2da74391e54da5f059b3</SHA1>
- <MetadataName>2021-11-24-0432_meta.7z</MetadataName>
+ <SHA1>fb0ce992c9ce9c23141c5bdae2e454ef10f497cd</SHA1>
+ <MetadataName>2021-11-26-1620_meta.7z</MetadataName>
  <PackageUpdate>
   <Name>private</Name>
   <DisplayName>Private folders</DisplayName>
@@ -211,22 +211,9 @@
   <ReleaseDate>2021-09-13</ReleaseDate>
   <SortingPriority>20</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="984" UncompressedSize="560" OS="Any" />
+  <UpdateFile UncompressedSize="560" CompressedSize="984" OS="Any"/>
   <DownloadableArchives>gridcreators.7z,solvers.7z,content.7z</DownloadableArchives>
   <SHA1>48da6a61c2522eec1f0e8e1f76fef93f3a48d425</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nays2dh</Name>
-  <DisplayName>Nays2DH</DisplayName>
-  <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
-  <Version>1.5.301</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-10-01</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="432757" UncompressedSize="1690507" OS="Any" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>9de9f05e604b60f144b5f30d5f3cea76fe6e1945</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.runtime</Name>
@@ -237,7 +224,7 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="85927587" UncompressedSize="311919677" OS="Any" />
+  <UpdateFile UncompressedSize="311919677" CompressedSize="85927587" OS="Any"/>
   <DownloadableArchives>iconengines.7z,imageformats.7z,licenses.7z,platforms.7z,pythonmodule.7z,resources.7z,styles.7z,translations.7z,udunits.7z,content.7z</DownloadableArchives>
   <SHA1>4f9e8fcddebf50f856f7f95018d5a5da9b102a24</SHA1>
  </PackageUpdate>
@@ -250,7 +237,7 @@
   <ReleaseDate>2021-11-10</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="272833" UncompressedSize="1153598" OS="Any" />
+  <UpdateFile UncompressedSize="1153598" CompressedSize="272833" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>76f330a385cc5f2d8fb98427d15b390eb9d4192f</SHA1>
  </PackageUpdate>
@@ -263,10 +250,10 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="5031167" UncompressedSize="36743662" OS="Any" />
+  <UpdateFile UncompressedSize="36743662" CompressedSize="5031167" OS="Any"/>
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="LICENSE" name="MIT License" />
+   <License name="MIT License" file="LICENSE"/>
   </Licenses>
   <SHA1>98549855365edf4379e04efd44c02d2e59e37e2b</SHA1>
  </PackageUpdate>
@@ -274,13 +261,13 @@
   <Name>miniconda</Name>
   <DisplayName>Miniconda 3</DisplayName>
   <Description>Miniconda 3-py38_4.9.2</Description>
-  <Dependencies />
+  <Dependencies/>
   <Version>4.0.25</Version>
   <ReleaseDate>2021-10-20</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="59747313" UncompressedSize="66374628" OS="Any" />
+  <UpdateFile UncompressedSize="66374628" CompressedSize="59747313" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7adadeaecd58037f5e8c752aea710efd1b210d5e</SHA1>
  </PackageUpdate>
@@ -294,8 +281,21 @@
   <SortingPriority>10</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2603372" UncompressedSize="24544152" OS="Any" />
+  <UpdateFile UncompressedSize="24544152" CompressedSize="2603372" OS="Any"/>
   <DownloadableArchives>c.7z,fortran.7z,python.7z</DownloadableArchives>
   <SHA1>90068c94b57983f7593eb5c41a6ecd2c5860f79b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dh</Name>
+  <DisplayName>Nays2DH</DisplayName>
+  <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
+  <Version>1.5.300</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-06-05</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="1690506" CompressedSize="432901" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>6a5f88d4d582140bffa675fad13d3e8471292422</SHA1>
  </PackageUpdate>
 </Updates>
