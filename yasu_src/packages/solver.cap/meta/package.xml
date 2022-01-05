@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>CAP</DisplayName>
 	<Description>Culvart Analysis Program</Description>
-	<Version>2.0.10</Version>
+	<Version>2.0.11</Version>
 	<Default>true</Default>
-	<ReleaseDate>2021-12-13</ReleaseDate>
+	<ReleaseDate>2022-01-05</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>
