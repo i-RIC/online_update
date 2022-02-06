@@ -3,8 +3,8 @@
 	<DisplayName>iRIC GUI 3.0</DisplayName>
 	<Description>iRIC Main GUI</Description>
 	<Dependencies>runtime,gui.runtime</Dependencies>
-	<Version>3.0.19.6761</Version>
-	<ReleaseDate>2021-12-16</ReleaseDate>
+	<Version>3.0.19.6762</Version>
+	<ReleaseDate>2022-02-06</ReleaseDate>
 	<SortingPriority>100</SortingPriority>
 	<ForcedInstallation>true</ForcedInstallation>
 	<Script>installscript.qs</Script>
