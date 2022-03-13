@@ -200,8 +200,8 @@
   <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0" />
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
- <SHA1>e886ec70bb4c459c31c42d468619d425749d168c</SHA1>
- <MetadataName>2022-03-13-0327_meta.7z</MetadataName>
+ <SHA1>3095dcf67b87619496fd993bc3f2f803c96ebee4</SHA1>
+ <MetadataName>2022-03-13-1717_meta.7z</MetadataName>
  <PackageUpdate>
   <Name>private</Name>
   <DisplayName>Private folders</DisplayName>
@@ -271,17 +271,17 @@
   <Name>gui.prepost</Name>
   <DisplayName>iRIC v4 (beta)</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.9.0.6812</Version>
-  <ReleaseDate>2022-03-13</ReleaseDate>
+  <Version>3.9.0.6813</Version>
+  <ReleaseDate>2022-03-14</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="5097527" UncompressedSize="36817307" />
+  <UpdateFile OS="Any" UncompressedSize="36817307" CompressedSize="5097103" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="MIT License" file="LICENSE" />
   </Licenses>
-  <SHA1>c8af01cd3769508d4b606dfd05e1ccb4fa3154c1</SHA1>
+  <SHA1>888ef6af436ce25cd20a4c04b4639dea23aec87c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>miniconda</Name>
@@ -293,9 +293,9 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="60426533" UncompressedSize="66375652" />
+  <UpdateFile OS="Any" UncompressedSize="66375652" CompressedSize="60426534" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>703859717a85bdad12c4510e9ff605537a3f63e8</SHA1>
+  <SHA1>e58e4353dbd0c525992dfed152851a251c117992</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>sdk</Name>
@@ -307,8 +307,8 @@
   <SortingPriority>10</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="2608064" UncompressedSize="24579992" />
+  <UpdateFile OS="Any" UncompressedSize="24579992" CompressedSize="2608070" />
   <DownloadableArchives>c.7z,fortran.7z,python.7z</DownloadableArchives>
-  <SHA1>95033325d15b71f8a74fd5f2c4c25eb16bcebcb0</SHA1>
+  <SHA1>71a136242549c24ee8115c1c0f320ecec8fd7303</SHA1>
  </PackageUpdate>
 </Updates>
