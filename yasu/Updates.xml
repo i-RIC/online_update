@@ -279,7 +279,7 @@
   <UpdateFile CompressedSize="5098444" OS="Any" UncompressedSize="36861580" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="MIT License" file="LICENSE" />
+   <License file="LICENSE" name="MIT License" />
   </Licenses>
   <SHA1>9ca3668d7e6e37503193cc68ecbf23d6c1c7f270</SHA1>
  </PackageUpdate>
