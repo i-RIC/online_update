@@ -200,8 +200,8 @@
   <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
- <SHA1>195965d2afb89a1c26a36409d6a3773e7c51f586</SHA1>
- <MetadataName>2022-03-30-1553_meta.7z</MetadataName>
+ <SHA1>9583fa95bde56d95fb43ba7db60cd2f007368edd</SHA1>
+ <MetadataName>2022-03-30-1819_meta.7z</MetadataName>
  <PackageUpdate>
   <Name>private</Name>
   <DisplayName>Private folders</DisplayName>
@@ -242,19 +242,6 @@
   <SHA1>4f9e8fcddebf50f856f7f95018d5a5da9b102a24</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.13</Version>
-  <Default>true</Default>
-  <ReleaseDate>2022-02-16</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="255862" UncompressedSize="795794" OS="Any"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>30455d4028a2271430ab8a53636fb24c3d53d770</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC v4 (beta)</DisplayName>
   <Description>iRIC Main GUI</Description>
@@ -266,7 +253,7 @@
   <UpdateFile CompressedSize="5099122" UncompressedSize="36868748" OS="Any"/>
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="LICENSE" name="MIT License"/>
+   <License name="MIT License" file="LICENSE"/>
   </Licenses>
   <SHA1>88aea8668c1507eac0a7afcb92d7da36bd6f5b91</SHA1>
  </PackageUpdate>
@@ -310,5 +297,18 @@
   <UpdateFile CompressedSize="259041" UncompressedSize="1081582" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7c6d74d759dbc087b62be61af272299d6766ef1a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.14</Version>
+  <Default>true</Default>
+  <ReleaseDate>2022-03-30</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="255805" UncompressedSize="795794" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>8567fcfa80532d7a445a468e8054c12bbb9618e7</SHA1>
  </PackageUpdate>
 </Updates>
