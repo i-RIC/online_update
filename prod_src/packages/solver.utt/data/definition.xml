@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="UTT" caption="UTT" version="1.0.2" copyright="yasu"
-    release="2021.4.26"
+    name="UTT" caption="UTT" version="1.1.0" copyright="yasu"
+    release="2022.4.19"
     homepage="http://ws3-er.eng.hokudai.ac.jp/yasu/"
     executable="UTT.exe"
     iterationtype="time"
     gridtype="structured2d,unstructured2d"
     >
 	<CalculationCondition>
-		<Tab name="basic_setting" caption="Basic Setting">
+		<Tab name="basic_setting" caption="Basic Settings">
 			<Item name="inputfile" caption="Flow information input file name">
 				<Definition conditionType="constant" valueType="filename" default="Select CGNS file name" />
 			</Item>
 			<GroupBox caption="Normal Tracers">
-				<Item name="j_spread" caption="Release Tracers">
+				<Item name="j_spread" caption="Tracer Releasing">
 					<Definition conditionType="constant" valueType="integer" default="0">
 					<Enumerations>
 		    				<Enumeration value="0" caption="(0) No"/>
@@ -163,7 +163,7 @@
 			</GroupBox>
 		</Tab>
 
-		<Tab name="special_spread" caption="Special Tracers for Trajectory Supping Condition">
+		<Tab name="special_spread" caption="Special Tracers for Trajectory Supplying Condition">
 		<GroupBox caption="Parameters for Special Tracers for Trajectory Injection">
 			<GroupBox caption="Xi(Streamwise) Direction">
 				<Item name="xi_1_tj" caption="xi_1_tj">
@@ -322,9 +322,9 @@
 			</GroupBox>
 		</Tab>
 
-		<Tab name="fish_motion" caption="Computation of Fish Motion">
+		<Tab name="fish_motion" caption="Simulation of Fish Motion">
 		<GroupBox caption="Fish_Motion">
-			<Item name="j_fish" caption="Computation of Fish">
+			<Item name="j_fish" caption="Fish Simulation">
 				<Definition conditionType="constant" valueType="integer" default="0">
 					<Enumerations>
 		    				<Enumeration value="0" caption="(0) No"/>
@@ -344,17 +344,17 @@
 				</Definition>
 			</Item>
 -->
-			<Item name="alphaCruise" caption="Cruise time VS fish length ration(s/m)">
+			<Item name="alphaCruise" caption="Cruising time to fish length ratio(s/m)">
 				<Definition conditionType="constant" valueType="real" default="10." >
 						<Condition type="isEqual" target="j_fish" value="1"/>
 				</Definition>
 			</Item>
-			<Item name="tRatio" caption="Rush time ratio to cruising cycle time">
+			<Item name="tRatio" caption="Rush time to cruising cycle time ratio">
 				<Definition conditionType="constant" valueType="real" default="0.1" >
 						<Condition type="isEqual" target="j_fish" value="1"/>
 				</Definition>
 			</Item>
-			<Item name="vRatio" caption="Rush speed ratio to cruising speed">
+			<Item name="vRatio" caption="Rush speed to cruising speed ratio">
 				<Definition conditionType="constant" valueType="real" default="5" >
 						<Condition type="isEqual" target="j_fish" value="1"/>
 				</Definition>
@@ -368,7 +368,7 @@
 					</Enumerations>
 				</Definition>
 			</Item>
-			<Item name="fishLength" caption="Averaged Fish Body Length(m)">
+			<Item name="fishLength" caption="Average Fish Body Length(m)">
 				<Definition conditionType="constant" valueType="real" default="0.3" >
 						<Condition type="isEqual" target="j_fish" value="1"/>
 				</Definition>
@@ -382,46 +382,154 @@
 					</Enumerations>
 				</Definition>
 			</Item>
-			<Item name="icol_t" caption="Numbers of Fish Size(Color)">
+			<Item name="icol_t" caption="Number of Fish Sizes(Colors)">
 				<Definition conditionType="constant" valueType="integer" default="10" >
 						<Condition type="isEqual" target="j_fish" value="1"/>
 				</Definition>
 			</Item>
 
+			<Item name="j_fishJump" caption="Fish Jumping">
+				<Definition conditionType="constant" valueType="integer" default="0">
+					<Condition type="isEqual" target="j_fish" value="1"/>
+					<Enumerations>
+		    			<Enumeration value="0" caption="(0) No"/>
+		 	   			<Enumeration value="1" caption="(1) Yes"/>
+					</Enumerations>
+				</Definition>
+			</Item>
+			<Item name="try_height" caption="Bed elevation drop height where fish consider jumping(m)">
+				<Definition conditionType="constant" valueType="real" default="0.15" >
+        <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishJump" value="1"/>
+            </Condition>
+        </Dependency>    
+				</Definition>
+			</Item>
+			<Item name="JumpHeight" caption="Possible jumping height(m)">
+				<Definition conditionType="constant" valueType="real" default="0.5" >
+        <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishJump" value="1"/>
+            </Condition>
+        </Dependency>    
+				</Definition>
+			</Item>
+			<Item name="JumpDistance" caption="Possible jumping distance(m)">
+				<Definition conditionType="constant" valueType="real" default="0.5" >
+        <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishJump" value="1"/>
+            </Condition>
+        </Dependency>    
+				</Definition>
+			</Item>
+			<Item name="TimeCchange" caption="Color change time during jumping motion(sec)">
+				<Definition conditionType="constant" valueType="real" default="1" >
+        <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishJump" value="1"/>
+            </Condition>
+        </Dependency>    
+				</Definition>
+			</Item>
+
+			<Item name="j_fishLocation" caption="Initial Fish Location">
+				<Definition conditionType="constant" valueType="integer" default="1">
+					<Condition type="isEqual" target="j_fish" value="1"/>
+					<Enumerations>
+		    			<Enumeration value="1" caption="(1) Coordinate"/>
+		 	   			<Enumeration value="2" caption="(2) Give total numbers and random placement"/>
+					</Enumerations>
+				</Definition>
+			</Item>
+
+
 			<GroupBox caption="Xi(Streamwise) Direction">
 				<Item name="xi_1_fish" caption="xi_1_fish">
 					<Definition conditionType="constant" valueType="real" default="0.1" >
-							<Condition type="isEqual" target="j_fish" value="1"/>
+          <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="1"/>
+            </Condition>
+          </Dependency>    
 					</Definition>
 				</Item>
+
 				<Item name="xi_2_fish" caption="xi_2_fish">
 					<Definition conditionType="constant" valueType="real" default="0.1">
-							<Condition type="isEqual" target="j_fish" value="1"/>
+          <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="1"/>
+            </Condition>
+          </Dependency>    
 					</Definition>
 				</Item>
+
 				<Item name="d_xi_fish" caption="d_xi_fish">
 					<Definition conditionType="constant" valueType="real" default="0.1">
-							<Condition type="isEqual" target="j_fish" value="1"/>
+          <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="1"/>
+            </Condition>
+          </Dependency>    
 					</Definition>
 				</Item>
 			</GroupBox>
+
 			<GroupBox caption="Eta(Transverse) Direction">
 				<Item name="eta_1_fish" caption="eta_1_fish">
 					<Definition conditionType="constant" valueType="real" default="0.3" >
-							<Condition type="isEqual" target="j_fish" value="1"/>
+          <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="1"/>
+            </Condition>
+          </Dependency>    
 					</Definition>
 				</Item>
 				<Item name="eta_2_fish" caption="eta_2_fish">
 					<Definition conditionType="constant" valueType="real" default="0.7">
-							<Condition type="isEqual" target="j_fish" value="1"/>
+          <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="1"/>
+            </Condition>
+          </Dependency>    
 					</Definition>
 				</Item>
 				<Item name="d_eta_fish" caption="d_eta_fish">
 					<Definition conditionType="constant" valueType="real" default="0.02">
-							<Condition type="isEqual" target="j_fish" value="1"/>
+          <Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="1"/>
+            </Condition>
+          </Dependency>    
 					</Definition>
 				</Item>
 			</GroupBox>
+
+			<GroupBox>
+				<Item name="fishNumber" caption="Total number of fish">
+					<Definition conditionType="constant" valueType="integer" default="100" max="1000">
+					<Dependency>
+						<Condition type="and">
+						<Condition type="isEqual" target="j_fish" value="1"/>
+						<Condition type="isEqual" target="j_fishLocation" value="2"/>
+            </Condition>
+					</Dependency>
+					</Definition>
+				</Item>
+			</GroupBox>
+
 		</GroupBox>
 		</Tab>
 

@@ -603,19 +603,6 @@
   <SHA1>2033674adbcbe36fab0d8d23addfc7246b53769a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.utt</Name>
-  <DisplayName>UTT</DisplayName>
-  <Description>UTT</Description>
-  <Version>1.0.2</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-04-26</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="96736" OS="Any" UncompressedSize="329874" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>d0c71e81d0a20c3e963aa683e9fc25ea75916635</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.simple_gridgen</Name>
   <DisplayName>Simple Straight and Meandering Channel Creator</DisplayName>
   <Description>Simple Straight and Meandering Channel Creator</Description>
@@ -736,5 +723,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>b3481c9defe35cefef2d71aee5d9bff31b73bb6b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.utt</Name>
+  <DisplayName>UTT</DisplayName>
+  <Description>UTT</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-26</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="100742" OS="Any" UncompressedSize="345516" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>cdd02380792c53dfc8eab782d0235309b25fdcde</SHA1>
  </PackageUpdate>
 </Updates>

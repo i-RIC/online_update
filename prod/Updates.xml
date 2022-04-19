@@ -652,19 +652,6 @@
   <SHA1>6b44d8f025df3a06be739aec41800afb6df23576</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.utt</Name>
-  <DisplayName>UTT</DisplayName>
-  <Description>UTT</Description>
-  <Version>1.0.2</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-04-26</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="96666" OS="Any" UncompressedSize="329838" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>c8c4c36bf041a1258faf5416bf2bb377f0b3efae</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridexporter_plugin.structured15dhecras</Name>
   <DisplayName>SAC grid HEC-RAS file exporter</DisplayName>
   <Description>SAC grid HEC-RAS file exporter</Description>
@@ -746,5 +733,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>ed70dbb767faca67672593bcde82715839ab1a5f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.utt</Name>
+  <DisplayName>UTT</DisplayName>
+  <Description>UTT</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-04-26</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="100735" OS="Any" UncompressedSize="345516" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>4e1c55cceb7983fee7495e8b58bb6510055b927e</SHA1>
  </PackageUpdate>
 </Updates>

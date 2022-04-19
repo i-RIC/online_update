@@ -9,7 +9,7 @@
             <translation>UTT とても便利な多機能トレーサー追跡ツール・魚も追跡できます</translation>
         </message>
         <message>
-            <source>Basic Setting</source>
+            <source>Basic Settings</source>
             <translation>基本設定</translation>
         </message>
         <message>
@@ -21,8 +21,8 @@
             <translation>通常のトレーサー</translation>
         </message>
         <message>
-            <source>Release Tracers</source>
-            <translation>投入</translation>
+            <source>Tracer Releasing</source>
+            <translation>トレーサーの放出</translation>
         </message>
         <message>
             <source>(0) No</source>
@@ -153,8 +153,8 @@
             <translation>時間間隔</translation>
         </message>
         <message>
-            <source>Special Tracers for Trajectory Supping Condition</source>
-            <translation>軌跡表示を行う特別トレーサー投入条件</translation>
+            <source>Special Tracers for Trajectory Supplying Condition</source>
+            <translation>軌跡追跡用の特別トレーサー</translation>
         </message>
         <message>
             <source>Parameters for Special Tracers for Trajectory Injection</source>
@@ -281,32 +281,32 @@
             <translation>再結合開始限界セル内トレーサー数(この数に達したら再結合を開始する)</translation>
         </message>
         <message>
-            <source>Computation of Fish Motion</source>
-            <translation>魚の移動追跡</translation>
+            <source>Simulation of Fish Motion</source>
+            <translation>魚の遊泳シミュレーター</translation>
         </message>
         <message>
             <source>Fish_Motion</source>
-            <translation>条件</translation>
+            <translation>魚の各種条件</translation>
         </message>
         <message>
-            <source>Computation of Fish</source>
-            <translation>計算</translation>
+            <source>Fish Simulation</source>
+            <translation>魚の遊泳</translation>
         </message>
         <message>
             <source>Fish Cruising Speed(m/s)</source>
             <translation>巡行速度(m/s)</translation>
         </message>
         <message>
-            <source>Cruise time VS fish length ration(s/m)</source>
-            <translation>巡行可能時間が体長に比例するとした場合の比例定数(s/m)</translation>
+            <source>Cruising time to fish length ratio(s/m)</source>
+            <translation>巡行時間・魚体長比(m/s)</translation>
         </message>
         <message>
-            <source>Rush time ratio to cruising cycle time</source>
-            <translation>突進時間の巡行時間に対する割合</translation>
+            <source>Rush time to cruising cycle time ratio</source>
+            <translation>突進時間・巡行時間比</translation>
         </message>
         <message>
-            <source>Rush speed ratio to cruising speed</source>
-            <translation>突進速度の巡行速度に対する割合</translation>
+            <source>Rush speed to cruising speed ratio</source>
+            <translation>突進速度・巡行速度比</translation>
         </message>
         <message>
             <source>Fish velocity variation</source>
@@ -321,8 +321,8 @@
             <translation>ばらつきを持たせる</translation>
         </message>
         <message>
-            <source>Averaged Fish Body Length(m)</source>
-            <translation>平均体長(m)</translation>
+            <source>Average Fish Body Length(m)</source>
+            <translation>平均魚体長</translation>
         </message>
         <message>
             <source>Fish length variation</source>
@@ -337,8 +337,40 @@
             <translation>ばらつきを持たせる</translation>
         </message>
         <message>
-            <source>Numbers of Fish Size(Color)</source>
-            <translation>体長の種類数(色別)</translation>
+            <source>Number of Fish Sizes(Colors)</source>
+            <translation>体調(色別)の種類数</translation>
+        </message>
+        <message>
+            <source>Fish Jumping</source>
+            <translation>魚の跳躍</translation>
+        </message>
+        <message>
+            <source>Bed elevation drop height where fish consider jumping(m)</source>
+            <translation>魚が跳躍を試みようとする高低差(魚の前面の壁の高さ)(m)</translation>
+        </message>
+        <message>
+            <source>Possible jumping height(m)</source>
+            <translation>魚の跳躍可能垂直高(m)</translation>
+        </message>
+        <message>
+            <source>Possible jumping distance(m)</source>
+            <translation>魚の跳躍可能水平距離(m)</translation>
+        </message>
+        <message>
+            <source>Color change time during jumping motion(sec)</source>
+            <translation>跳躍動作継続時間(sec)</translation>
+        </message>
+        <message>
+            <source>Initial Fish Location</source>
+            <translation>初期魚の配置</translation>
+        </message>
+        <message>
+            <source>(1) Coordinate</source>
+            <translation>座標</translation>
+        </message>
+        <message>
+            <source>(2) Give total numbers and random placement</source>
+            <translation>総数を指定してランダム配置</translation>
         </message>
         <message>
             <source>xi_1_fish</source>
@@ -363,6 +395,10 @@
         <message>
             <source>d_eta_fish</source>
             <translation>上記相対間隔</translation>
+        </message>
+        <message>
+            <source>Total number of fish</source>
+            <translation>魚の総個体数</translation>
         </message>
         <message>
             <source>Diffusion Condition</source>
