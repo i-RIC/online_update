@@ -728,13 +728,13 @@
   <Name>solver.utt</Name>
   <DisplayName>UTT</DisplayName>
   <Description>UTT</Description>
-  <Version>1.0.2</Version>
+  <Version>1.1.0</Version>
   <Default>true</Default>
-  <ReleaseDate>2021-04-26</ReleaseDate>
+  <ReleaseDate>2022-04-19</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="100742" OS="Any" UncompressedSize="345516" />
+  <UpdateFile CompressedSize="100735" OS="Any" UncompressedSize="345516" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>cdd02380792c53dfc8eab782d0235309b25fdcde</SHA1>
+  <SHA1>0eb6b1dedd501d6388483e0e1fa4c36de0791571</SHA1>
  </PackageUpdate>
 </Updates>

@@ -738,13 +738,13 @@
   <Name>solver.utt</Name>
   <DisplayName>UTT</DisplayName>
   <Description>UTT</Description>
-  <Version>1.0.2</Version>
+  <Version>1.1.0</Version>
   <Default>true</Default>
-  <ReleaseDate>2021-04-26</ReleaseDate>
+  <ReleaseDate>2022-04-19</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="100735" OS="Any" UncompressedSize="345516" />
+  <UpdateFile CompressedSize="100737" OS="Any" UncompressedSize="345516" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>4e1c55cceb7983fee7495e8b58bb6510055b927e</SHA1>
+  <SHA1>d7df3b8e0823e59edb3e9d01ddd0fac8f4e4c06c</SHA1>
  </PackageUpdate>
 </Updates>
