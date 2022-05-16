@@ -200,8 +200,8 @@
   <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0" />
   <SHA1>f960ad99902b27439c25df9dd5f0f5796f259792</SHA1>
  </PackageUpdate>
- <SHA1>ce3db0ad9a34cfded8991878899a4bbf5f2f3cd4</SHA1>
- <MetadataName>2022-04-30-1823_meta.7z</MetadataName>
+ <SHA1>5d8b5abc0ee2121f4ab481bb8af136b4c8321a80</SHA1>
+ <MetadataName>2022-05-16-0319_meta.7z</MetadataName>
  <PackageUpdate>
   <Name>private</Name>
   <DisplayName>Private folders</DisplayName>
@@ -271,17 +271,17 @@
   <Name>gui.prepost</Name>
   <DisplayName>iRIC v4 (beta)</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.9.0.6820</Version>
-  <ReleaseDate>2022-05-01</ReleaseDate>
+  <Version>3.9.0.6821</Version>
+  <ReleaseDate>2022-05-16</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="5102974" OS="Any" UncompressedSize="36877964" />
+  <UpdateFile CompressedSize="5107791" OS="Any" UncompressedSize="36948119" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="LICENSE" name="MIT License" />
+   <License name="MIT License" file="LICENSE" />
   </Licenses>
-  <SHA1>d17305de9c14050d267e7bf5c53bf8ac949b9ca1</SHA1>
+  <SHA1>de0644a9160785d995fcb218324ded00fdc9a9d5</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>miniconda</Name>
@@ -293,9 +293,9 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="60425789" OS="Any" UncompressedSize="66375652" />
+  <UpdateFile CompressedSize="60425788" OS="Any" UncompressedSize="66375652" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>9e096475f67dc011890505b59c551a6fec0a65d1</SHA1>
+  <SHA1>369d1142cff41e378ab35f02114e04dc866eb6a5</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>sdk</Name>
@@ -307,8 +307,8 @@
   <SortingPriority>10</SortingPriority>
   <ForcedInstallation>false</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2608795" OS="Any" UncompressedSize="24581117" />
+  <UpdateFile CompressedSize="2608783" OS="Any" UncompressedSize="24581117" />
   <DownloadableArchives>c.7z,fortran.7z,python.7z</DownloadableArchives>
-  <SHA1>6bb7cf8bf404ae0f5eae837fbdf7734fb9e8a496</SHA1>
+  <SHA1>d99412fd358d9a868ef4afc731a20860339b90ea</SHA1>
  </PackageUpdate>
 </Updates>
