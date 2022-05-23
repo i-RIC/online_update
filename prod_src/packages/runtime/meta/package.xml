@@ -2,8 +2,8 @@
 <Package>
 	<DisplayName>Runtime libraries</DisplayName>
 	<Description>Visual C++ runtime libraries needed to run iRIC system</Description>
-	<Version>1.1.0</Version>
-	<ReleaseDate>2018-10-31</ReleaseDate>
+	<Version>1.2.0</Version>
+	<ReleaseDate>2022-05-23</ReleaseDate>
 	<SortingPriority>5</SortingPriority>
 	<ForcedInstallation>true</ForcedInstallation>
 	<Script>installscript.qs</Script>
