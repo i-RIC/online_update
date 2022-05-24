@@ -737,4 +737,17 @@
   </Licenses>
   <SHA1>6be91f978008b8a98e6d2280616adf04cff780c9</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays1dp</Name>
+  <DisplayName>Nays1Dp</DisplayName>
+  <Description />
+  <Version>1.00.8</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019.11.22</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="116158" OS="Any" UncompressedSize="345983" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>a47d62bb24e78d46a9ee62b5278a0c9af3ca1de0</SHA1>
+ </PackageUpdate>
 </Updates>
