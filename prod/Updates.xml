@@ -760,4 +760,17 @@
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>36257eb9dde37a7494c860a5135b5c4fdf6ed3ef</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.naysmini</Name>
+  <DisplayName>NaysMini</DisplayName>
+  <Description>NaysMini is a simple version of Nays2dH written in Python code.</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-06-15</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="7984" OS="Any" UncompressedSize="35344" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>c45a3d1d61d30a5b4bdde123c462f9f7cdbbb44f</SHA1>
+ </PackageUpdate>
 </Updates>
