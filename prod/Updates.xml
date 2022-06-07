@@ -718,23 +718,6 @@
   <SHA1>d7df3b8e0823e59edb3e9d01ddd0fac8f4e4c06c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6753</Version>
-  <ReleaseDate>2022-05-16</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3692270" OS="Any" UncompressedSize="21473995" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
-  </Licenses>
-  <SHA1>44b7fab9aa4e417a909289902e5a4f0cb29c6cf1</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>runtime</Name>
   <DisplayName>Runtime libraries</DisplayName>
   <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
@@ -772,5 +755,22 @@
   <UpdateFile CompressedSize="7984" OS="Any" UncompressedSize="35344" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>c45a3d1d61d30a5b4bdde123c462f9f7cdbbb44f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6754</Version>
+  <ReleaseDate>2022-06-07</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3691682" OS="Any" UncompressedSize="21472459" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+  </Licenses>
+  <SHA1>a62acd8b77fc2b82518d33b9582602f2219f8353</SHA1>
  </PackageUpdate>
 </Updates>
