@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GridGeneratorDefinition 
   xmlns="www.iric.net"
-  name="u-nays3dv" caption="u-shape grid generator for Nays3dv" version="1.0.1" 
-  copyright="Yasuyuki Shimizu" executable="u-shape_grigen.exe" gridtype="structured2d" release="2021.1.18"
+  name="u-nays3dv" caption="u-shape grid generator for Nays3dv" version="1.0.2" 
+  copyright="Yasuyuki Shimizu" executable="u-nays3dv.exe" gridtype="structured2d" release="2021.1.18"
 >
 
 <GridGeneratingCondition>

@@ -4,7 +4,7 @@
 	<Description></Description>
 	<Version>1.00.8</Version>
 	<Default>true</Default>
-	<ReleaseDate>2019.11.22</ReleaseDate>
+	<ReleaseDate>2019-11-22</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

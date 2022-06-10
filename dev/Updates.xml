@@ -434,19 +434,6 @@
   <SHA1>c5d603bff679dd61fd7b047831919e3d2aa2ccea</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridcreator.u_nays3dv</Name>
-  <DisplayName>U-Nays3dvGrid</DisplayName>
-  <Description>u-shape grid generator for Nays3dv</Description>
-  <Version>1.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1021074" OS="Any" UncompressedSize="3839744" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>000857f13f407d87539714fd2d671ca424667a5a</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays3dv</Name>
   <DisplayName>Nays3dV vertical 3D model</DisplayName>
   <Description />
@@ -733,7 +720,7 @@
   <UpdateFile CompressedSize="3694371" OS="Any" UncompressedSize="21488325" />
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+   <License name="Terms of use of the iRIC software" file="license-english.txt" />
   </Licenses>
   <SHA1>6be91f978008b8a98e6d2280616adf04cff780c9</SHA1>
  </PackageUpdate>
@@ -749,5 +736,18 @@
   <UpdateFile CompressedSize="116158" OS="Any" UncompressedSize="345983" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>a47d62bb24e78d46a9ee62b5278a0c9af3ca1de0</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.u_nays3dv</Name>
+  <DisplayName>U-Nays3dvGrid</DisplayName>
+  <Description>u-shape grid generator for Nays3dv</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1021089" OS="Any" UncompressedSize="3839739" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>31fd8dc35f6bcc2195d40d82c26d653aff24a365</SHA1>
  </PackageUpdate>
 </Updates>

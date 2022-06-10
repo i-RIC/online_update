@@ -2,7 +2,7 @@
 <Package>
 	<DisplayName>U-Nays3dvGrid</DisplayName>
 	<Description>u-shape grid generator for Nays3dv</Description>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
 	<Default>true</Default>
 	<ReleaseDate>2021-01-18</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
