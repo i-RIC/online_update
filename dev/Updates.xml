@@ -708,23 +708,6 @@
   <SHA1>0eb6b1dedd501d6388483e0e1fa4c36de0791571</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6781</Version>
-  <ReleaseDate>2022-05-09</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3694371" OS="Any" UncompressedSize="21488325" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt" />
-  </Licenses>
-  <SHA1>6be91f978008b8a98e6d2280616adf04cff780c9</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays1dp</Name>
   <DisplayName>Nays1Dp</DisplayName>
   <Description />
@@ -749,5 +732,22 @@
   <UpdateFile CompressedSize="1021089" OS="Any" UncompressedSize="3839739" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>31fd8dc35f6bcc2195d40d82c26d653aff24a365</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6782</Version>
+  <ReleaseDate>2022-06-20</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3695149" OS="Any" UncompressedSize="21488837" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+  </Licenses>
+  <SHA1>8901539bd56900c9e8e420f47512b1c611843d96</SHA1>
  </PackageUpdate>
 </Updates>
