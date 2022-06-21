@@ -744,23 +744,6 @@
   <SHA1>c45a3d1d61d30a5b4bdde123c462f9f7cdbbb44f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6754</Version>
-  <ReleaseDate>2022-06-07</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3691682" OS="Any" UncompressedSize="21472459" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
-  </Licenses>
-  <SHA1>a62acd8b77fc2b82518d33b9582602f2219f8353</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.u_nays3dv</Name>
   <DisplayName>U-Nays3dvGrid</DisplayName>
   <Description>u-shape grid generator for Nays3dv</Description>
@@ -772,5 +755,22 @@
   <UpdateFile CompressedSize="1021082" OS="Any" UncompressedSize="3839739" />
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>cac0726459e5a9d92ce36b3fa6fccb120677152a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6755</Version>
+  <ReleaseDate>2022-06-21</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3692656" OS="Any" UncompressedSize="21472971" />
+  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+  </Licenses>
+  <SHA1>28910384bae3265712cc5572e2f129adfc84cd69</SHA1>
  </PackageUpdate>
 </Updates>
