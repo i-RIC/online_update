@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GridGeneratorDefinition 
   xmlns="www.iric.net/GridGeneratorDefinition/1.0"
-  name="gridgen" caption="Simple Grid Generator" version="1.0.1" 
+  name="gridgen" caption="Simple Grid Generator" version="1.0.2" 
   copyright="Jonathan Nelson" executable="simplegridgen.exe" gridtype="structured2d"
   release="2020.2.16"
 >
