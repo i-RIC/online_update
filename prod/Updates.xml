@@ -764,13 +764,13 @@
   <Name>gridcreator.arc_grigen_cp</Name>
   <DisplayName>2d arc grid generator (Compound Channel)</DisplayName>
   <Description>2d arc grid generator (Compound Channel)</Description>
-  <Version>1.0.0</Version>
+  <Version>1.0.22090201</Version>
   <Default>true</Default>
-  <ReleaseDate>2012-04-26</ReleaseDate>
+  <ReleaseDate>2022-09-02</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="24363" OS="Any" UncompressedSize="69612"></UpdateFile>
+  <UpdateFile CompressedSize="263743" OS="Any" UncompressedSize="803058"></UpdateFile>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b44b42454dd419891535cbb7b967e7123c636640</SHA1>
+  <SHA1>f65074e316969abbad752e70e57463925df43a1f</SHA1>
  </PackageUpdate>
 </Updates>
