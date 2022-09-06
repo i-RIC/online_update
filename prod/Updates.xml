@@ -748,19 +748,6 @@
   <SHA1>f47e0960907d71f85b50d464a6b772fc2c392532</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridcreator.arc_grigen_cp</Name>
-  <DisplayName>2d arc grid generator (Compound Channel)</DisplayName>
-  <Description>2d arc grid generator (Compound Channel)</Description>
-  <Version>1.0.22090201</Version>
-  <Default>true</Default>
-  <ReleaseDate>2022-09-02</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="260447" OS="Any" UncompressedSize="777970"></UpdateFile>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>e352c872dc88577a1caad863ec41c36c3c17e950</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.simplegridgen</Name>
   <DisplayName>Simple Grid Generator</DisplayName>
   <Description>Simple Grid Generator</Description>
@@ -772,5 +759,18 @@
   <UpdateFile CompressedSize="15332" OS="Any" UncompressedSize="69165"></UpdateFile>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>13048d35f7a8221c96f1da5dc2aae39b46b86c6c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.arc_grigen_cp</Name>
+  <DisplayName>2d arc grid generator (Compound Channel)</DisplayName>
+  <Description>2d arc grid generator (Compound Channel)</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2012-04-26</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="24363" OS="Any" UncompressedSize="69612"></UpdateFile>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>b44b42454dd419891535cbb7b967e7123c636640</SHA1>
  </PackageUpdate>
 </Updates>

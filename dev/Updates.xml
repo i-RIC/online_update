@@ -720,22 +720,9 @@
   <UpdateFile CompressedSize="3695713" UncompressedSize="21490373" OS="Any"/>
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
   <SHA1>d44a47d43dd15ec867a2f1ea36e0044a93c2744f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.arc_grigen_cp</Name>
-  <DisplayName>2d arc grid generator (Compound Channel)</DisplayName>
-  <Description>2d arc grid generator (Compound Channel)</Description>
-  <Version>1.0.22090201</Version>
-  <Default>true</Default>
-  <ReleaseDate>2022-09-02</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="260442" UncompressedSize="777970" OS="Any"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>45a2d66cbb7a8bb92caa32ba3bf8e48e6df2a8bb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridcreator.simplegridgen</Name>
@@ -749,5 +736,18 @@
   <UpdateFile CompressedSize="15328" UncompressedSize="69165" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>6303c13351c657c60d42456cb455cd265f346e07</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.arc_grigen_cp</Name>
+  <DisplayName>2d arc grid generator (Compound Channel)</DisplayName>
+  <Description>2d arc grid generator (Compound Channel)</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2012-04-26</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="24362" UncompressedSize="69612" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>a4de82b2e2bc171c0b2b2fa04c6b9b10940d0539</SHA1>
  </PackageUpdate>
 </Updates>
