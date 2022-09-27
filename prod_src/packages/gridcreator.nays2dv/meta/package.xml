@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>Nays2DVGrid</DisplayName>
 	<Description>Grid Generator for Nays2dv</Description>
-	<Version>1.0.5</Version>
+	<Version>1.0.22092701</Version>
 	<Default>true</Default>
-	<ReleaseDate>2021-01-18</ReleaseDate>
+	<ReleaseDate>2022-09-27</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>
