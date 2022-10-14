@@ -401,6 +401,14 @@
             <translation>与える一定値</translation>
         </message>
         <message>
+            <source>Shoreline Adjust (j_wbc)</source>
+            <translation></translation>
+        </message>
+        <message>
+            <source>Not apply</source>
+            <translation></translation>
+        </message>
+        <message>
             <source>Initial Water Surface Profile</source>
             <translation>水面形状</translation>
         </message>
@@ -491,6 +499,10 @@
         <message>
             <source>Relaxation coefficient for water surface computation</source>
             <translation>緩和係数</translation>
+        </message>
+        <message>
+            <source>Minimum Depth(m)</source>
+            <translation>最小水深(m)</translation>
         </message>
         <message>
             <source>Parameters of water, bed and bank material</source>
